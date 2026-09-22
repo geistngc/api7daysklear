@@ -1,0 +1,4699 @@
+C:.
+│   Assembly-CSharp.sln
+│
+└───Assembly-CSharp
+    │   $BurstDirectCallInitializer.cs
+    │   ActionSetManager.cs
+    │   ActionTarget.cs
+    │   ActionTargetType.cs
+    │   AddressableFolders.cs
+    │   AddSnowToGlass.cs
+    │   AdminBlacklist.cs
+    │   AdminCommands.cs
+    │   AdminSectionAbs.cs
+    │   AdminSpeedConsoleCmd.cs
+    │   AdminTools.cs
+    │   AdminUsers.cs
+    │   AdminWhitelist.cs
+    │   AesEncryptAndMac.cs
+    │   AIAimFocusOffset.cs
+    │   AIAirDrop.cs
+    │   AIClaimTokenFlags.cs
+    │   AIDirector.cs
+    │   AIDirectorAirDropComponent.cs
+    │   AIDirectorBloodMoonComponent.cs
+    │   AIDirectorBloodMoonParty.cs
+    │   AIDirectorChunkData.cs
+    │   AIDirectorChunkEvent.cs
+    │   AIDirectorChunkEventComponent.cs
+    │   AIDirectorComponent.cs
+    │   AIDirectorConstants.cs
+    │   AIDirectorData.cs
+    │   AIDirectorEventsFromXml.cs
+    │   AIDirectorGameStagePartySpawner.cs
+    │   AIDirectorHordeComponent.cs
+    │   AIDirectorMarkerManagementComponent.cs
+    │   AIDirectorPlayerInventory.cs
+    │   AIDirectorPlayerManagementComponent.cs
+    │   AIDirectorPlayerState.cs
+    │   AIDirectorPooledMarker.cs
+    │   AIDirectorPrivateData.cs
+    │   AIDirectorSmellMarker.cs
+    │   AIDirectorWanderingHordeComponent.cs
+    │   AIDirectorZombieState.cs
+    │   AIFocus.cs
+    │   AIFocusAim.cs
+    │   AIFocusBody.cs
+    │   AIFocusConditionDistance.cs
+    │   AIHordeSpawner.cs
+    │   AIScoutHordeSpawner.cs
+    │   AITokenClaim.cs
+    │   AITokenConfig.cs
+    │   AITokenType.cs
+    │   AIWanderingHordeSpawner.cs
+    │   AllowSpawnNearFriend.cs
+    │   AllyStore.cs
+    │   AmbientAudioController.cs
+    │   AnimationDelayData.cs
+    │   AnimationEventBridge.cs
+    │   AnimationGunjointOffsetData.cs
+    │   AnimationParameters.cs
+    │   AnimationRandomTransition.cs
+    │   AnimationStateRagdoll.cs
+    │   AnimationStateRandomBlend.cs
+    │   AnimationTestSceneTools.cs
+    │   AnimationTPVHolsterUnholster.cs
+    │   Animator3PRangedReloadState.cs
+    │   AnimatorDoorState.cs
+    │   AnimatorDrawbridgeState.cs
+    │   AnimatorMeleeAttackState.cs
+    │   AnimatorRangedAttackState.cs
+    │   AnimatorRangedHoldState.cs
+    │   AnimatorRangedReloadState.cs
+    │   AnimatorRangedSpecialAttackState.cs
+    │   AnimatorSpeedSetter.cs
+    │   AnimatorStateHold.cs
+    │   AnimatorStateHolstering.cs
+    │   AnimatorStateRaycast.cs
+    │   AnimatorStateRaycastOnExit.cs
+    │   AnimatorStateTPVHold.cs
+    │   AnimatorStateTPVHolsterUnholster.cs
+    │   AnimatorStateUnholstering.cs
+    │   AnimatorThrownWeaponHoldState.cs
+    │   AnimatorThrownWeaponHolsterState.cs
+    │   AnimatorWeaponRangedReloadState.cs
+    │   AnimJumpMode.cs
+    │   AnimParamData.cs
+    │   AntiCheatEncryptionAgreementAuthorizer.cs
+    │   AntiCheatEncryptionAuthClient.cs
+    │   AntiCheatEncryptionAuthServer.cs
+    │   ApplyExplosionForce.cs
+    │   Archetype.cs
+    │   ArchetypePreviewIKController.cs
+    │   ArmorGroupCount.cs
+    │   ArmorGroupLowestQuality.cs
+    │   Array3DWithOffset.cs
+    │   ArrayDynamicFast.cs
+    │   ArrayListMP.cs
+    │   ArrayWithOffset.cs
+    │   ArrayWithOffsetSparse.cs
+    │   Assembly-CSharp.csproj
+    │   AssetBundleManager.cs
+    │   AssetBundles.cs
+    │   AssetMappings.cs
+    │   AstarManager.cs
+    │   AstarVoxelGrid.cs
+    │   AtmosphereEffect.cs
+    │   AtomicActionDelegate.cs
+    │   AtomicCounter.cs
+    │   AtomicSafeHandleScope.cs
+    │   AttachedToEntitySlotExit.cs
+    │   AttachedToEntitySlotInfo.cs
+    │   AttachmentTestSceneTools.cs
+    │   AudioBiome.cs
+    │   AudioGamepadRumbleSource.cs
+    │   AudioMixerManager.cs
+    │   AudioObject.cs
+    │   AudioPlayer.cs
+    │   AudioSourceLifetimeSwitch.cs
+    │   AudioTrigger.cs
+    │   AuthFinalizer.cs
+    │   AuthoredText.cs
+    │   AuthorizationManager.cs
+    │   AuthorizerAbs.cs
+    │   AutoBindCache.cs
+    │   AutomationRunner.cs
+    │   AutomationScript.cs
+    │   AutomationStep.cs
+    │   AutoTurretController.cs
+    │   AutoTurretFireController.cs
+    │   AutoTurretPitchLerp.cs
+    │   AutoTurretYawLerp.cs
+    │   AuxBoneTracker.cs
+    │   AvatarAnimalController.cs
+    │   AvatarBanditController.cs
+    │   AvatarCharacterController.cs
+    │   AvatarController.cs
+    │   AvatarControllerDummy.cs
+    │   AvatarHumanController.cs
+    │   AvatarLocalPlayerController.cs
+    │   AvatarMultiBodyController.cs
+    │   AvatarNpcController.cs
+    │   AvatarRootMotion.cs
+    │   AvatarSDCSController.cs
+    │   AvatarUMAController.cs
+    │   AvatarZombieController.cs
+    │   BackedArrayHandleMode.cs
+    │   BackedArrayHandleModeExtensions.cs
+    │   BackedArrays.cs
+    │   BackedArraySingleView.cs
+    │   BackgroundMusicMono.cs
+    │   BackpackCraftingOptions.cs
+    │   BacktraceUtils.cs
+    │   Bag.cs
+    │   BakeScheduler.cs
+    │   BansAndWhitelistAuthorizer.cs
+    │   BaseDialogAction.cs
+    │   BaseDialogItem.cs
+    │   BaseDialogRequirement.cs
+    │   BaseItemActionEntry.cs
+    │   BaseLootEntryRequirement.cs
+    │   BaseObjective.cs
+    │   BaseObjectiveModifier.cs
+    │   BaseOperationLootEntryRequirement.cs
+    │   BaseQuestAction.cs
+    │   BaseQuestCriteria.cs
+    │   BaseQuestData.cs
+    │   BaseResponseEntry.cs
+    │   BaseReward.cs
+    │   BaseStatement.cs
+    │   BenchmarkObject.cs
+    │   BiDictionary.cs
+    │   BinaryReaderExtensions.cs
+    │   BindingInfo.cs
+    │   BindingInfoNcalc.cs
+    │   BindingItem.cs
+    │   BindingItemCvar.cs
+    │   BindingItemNcalc.cs
+    │   BindingItemStandard.cs
+    │   BindingMethodCache.cs
+    │   BindingNcalcFunctions.cs
+    │   BindingsManager.cs
+    │   BiomeAtmosphereEffects.cs
+    │   BiomeBlockDecoration.cs
+    │   BiomeBluffDecoration.cs
+    │   BiomeDefinition.cs
+    │   BiomeFilterTypes.cs
+    │   BiomeImageLoader.cs
+    │   BiomeIntensity.cs
+    │   BiomeIntensityMap.cs
+    │   BiomeLayer.cs
+    │   BiomeParticleManager.cs
+    │   BiomePrefabDecoration.cs
+    │   BiomeSpawnEntityGroupData.cs
+    │   BiomeSpawnEntityGroupList.cs
+    │   BiomeSpawningClass.cs
+    │   BiomeSpawningFromXml.cs
+    │   BitConverterLE.cs
+    │   BitsUsedEvent.cs
+    │   bleedingScale.cs
+    │   BlendCycleTimer.cs
+    │   BlendshapeTestSceneTools.cs
+    │   BlendTimer.cs
+    │   Blinking.cs
+    │   Block.cs
+    │   BlockActivate.cs
+    │   BlockActivateSingle.cs
+    │   BlockActivateSwitch.cs
+    │   BlockActivationCommand.cs
+    │   BlockBarbed.cs
+    │   BlockBatteryBank.cs
+    │   BlockBladeTrap.cs
+    │   BlockCactus.cs
+    │   BlockCampfire.cs
+    │   BlockChangeInfo.cs
+    │   BlockCollector.cs
+    │   BlockCompositeTileEntity.cs
+    │   BlockDamage.cs
+    │   BlockDeadgrass.cs
+    │   BlockElectricWire.cs
+    │   BlockEntityData.cs
+    │   BlockFace.cs
+    │   BlockFaceFlag.cs
+    │   BlockFaceFlags.cs
+    │   BlockFaces.cs
+    │   BlockForge.cs
+    │   BlockGameEvent.cs
+    │   BlockGenerator.cs
+    │   BlockHasTags.cs
+    │   BlockHay.cs
+    │   BlockHazard.cs
+    │   BlockHighlighter.cs
+    │   BlockInfo.cs
+    │   BlockingQueue.cs
+    │   BlockJumpPad.cs
+    │   BlockLadder.cs
+    │   BlockLauncher.cs
+    │   BlockLight.cs
+    │   BlockLimitTracker.cs
+    │   BlockLiquidSource.cs
+    │   BlockLiquidv2.cs
+    │   BlockMaskRules.cs
+    │   BlockMine.cs
+    │   BlockModelTree.cs
+    │   BlockMotionSensor.cs
+    │   BlockMusic.cs
+    │   BlockParticle.cs
+    │   BlockPlaceholderMap.cs
+    │   BlockPlaceholdersFromXml.cs
+    │   BlockPlacement.cs
+    │   BlockPlacementDoor.cs
+    │   BlockPlacementDrawBridge.cs
+    │   BlockPlacementPineLeaves.cs
+    │   BlockPlacementPlate.cs
+    │   BlockPlacementSpotlight.cs
+    │   BlockPlacementTorch.cs
+    │   BlockPlacementTowardsPlacer.cs
+    │   BlockPlacementTowardsPlacer90.cs
+    │   BlockPlacementTowardsPlacerInverted.cs
+    │   BlockPlant.cs
+    │   BlockPlantGrowing.cs
+    │   BlockPowered.cs
+    │   BlockPoweredDoor.cs
+    │   BlockPoweredLight.cs
+    │   BlockPoweredTrap.cs
+    │   BlockPowerSource.cs
+    │   BlockPressurePlate.cs
+    │   BlockProjectileMoveScript.cs
+    │   BlockQuestActivate.cs
+    │   BlockRadiusEffect.cs
+    │   BlockRallyMarker.cs
+    │   BlockRanged.cs
+    │   BlockRule.cs
+    │   BlocksFromXml.cs
+    │   BlockShape.cs
+    │   BlockShapeBillboardAbstract.cs
+    │   BlockShapeBillboardComplex.cs
+    │   BlockShapeBillboardCross.cs
+    │   BlockShapeBillboardDiagonal.cs
+    │   BlockShapeBillboardPlant.cs
+    │   BlockShapeBillboardRotatedAbstract.cs
+    │   BlockShapeCube.cs
+    │   BlockShapeDistantDeco.cs
+    │   BlockShapeDistantDecoTree.cs
+    │   BlockShapeGrass.cs
+    │   BlockShapeGrassShort.cs
+    │   BlockShapeInvisible.cs
+    │   BlockShapeModelEntity.cs
+    │   BlockShapeNew.cs
+    │   BlockShapeRotatedAbstract.cs
+    │   BlockShapeTerrain.cs
+    │   BlockShapeWater.cs
+    │   BlockSiblingRemove.cs
+    │   BlockSign.cs
+    │   BlockSleeper.cs
+    │   BlockSleepingBag.cs
+    │   BlockSolarPanel.cs
+    │   BlockSpawnEntity.cs
+    │   BlockSpeaker.cs
+    │   BlockSpeakerTrader.cs
+    │   BlockSpikes.cs
+    │   BlockSpotlight.cs
+    │   BlockStairs.cs
+    │   BlockStandingOn.cs
+    │   BlockSwitch.cs
+    │   BlockSwitchController.cs
+    │   BlockSwitchSingleController.cs
+    │   BlockTags.cs
+    │   BlockTallgrass.cs
+    │   BlockTextureData.cs
+    │   BlockTexturesFromXML.cs
+    │   BlockTimerRelay.cs
+    │   BlockTNT.cs
+    │   BlockTools.cs
+    │   BlockToolSelection.cs
+    │   BlockToolTerrainAdjust.cs
+    │   BlockToolTerrainPaint.cs
+    │   BlockToolTerrainSmoothing.cs
+    │   BlockTorch.cs
+    │   BlockTorchHeatMap.cs
+    │   BlockTracker.cs
+    │   BlockTrapDoor.cs
+    │   BlockTrigger.cs
+    │   BlockTriggerDowngrade.cs
+    │   BlockTripWire.cs
+    │   BlockTrunk.cs
+    │   BlockTrunkTip.cs
+    │   BlockUtilityNavIcon.cs
+    │   BlockUVCoordinates.cs
+    │   BlockValue.cs
+    │   BlockValueRef.cs
+    │   BlockValueRefType.cs
+    │   BlockValueV3.cs
+    │   BlockVendingMachine.cs
+    │   BlockWorkstation.cs
+    │   BodyAnimator.cs
+    │   BodyDamage.cs
+    │   BodyPrimaryHit.cs
+    │   BossGroup.cs
+    │   BoundaryProjector.cs
+    │   BoundaryProjectorTreasure.cs
+    │   BoundsUtils.cs
+    │   BrushSettings.cs
+    │   BucketHashSetList.cs
+    │   BuffClass.cs
+    │   BuffEffectStackTypes.cs
+    │   BuffEntityUINotification.cs
+    │   BuffManager.cs
+    │   BuffsFromXml.cs
+    │   BuffValue.cs
+    │   BundleTags.cs
+    │   BurstRoundCount.cs
+    │   ByteLengthUtils.cs
+    │   CachedMeshData.cs
+    │   CachedStringFormatter.2.cs
+    │   CachedStringFormatter.3.cs
+    │   CachedStringFormatter.4.cs
+    │   CachedStringFormatter.5.cs
+    │   CachedStringFormatter.cs
+    │   CachedStringFormatterFloat.cs
+    │   CachedStringFormatterInt.cs
+    │   CachedStringFormatterXuiRgbaColor.cs
+    │   CallbackMetric.cs
+    │   CameraControl.cs
+    │   CameraMatrixOverride.cs
+    │   CameraPerspectives.cs
+    │   CanvasRotationMode.cs
+    │   CaseInsensitiveStringDictionary.cs
+    │   CatapultStrainAmount.cs
+    │   CBCLayer.cs
+    │   CC.cs
+    │   ChallengeJournal.cs
+    │   ChallengesFromXml.cs
+    │   ChannelCalculator.cs
+    │   ChannelPointsRedemptionEvent.cs
+    │   CharacterClickHandler.cs
+    │   CharacterColliderHelper.cs
+    │   CharacterConfigurator.cs
+    │   CharacterConfiguratorUIController.cs
+    │   CharacterConstruct.cs
+    │   CharacterConstructUIController.cs
+    │   CharacterConstructUtils.cs
+    │   CharacterControllerAbstract.cs
+    │   CharacterControllerKinematic.cs
+    │   CharacterControllerUnity.cs
+    │   CharacterGazeController.cs
+    │   CharacterMatrixOverride.cs
+    │   CharacterShaderLODControl.cs
+    │   ChatInput.cs
+    │   Chunk.cs
+    │   ChunkAreaBiomeSpawnData.cs
+    │   ChunkBlockChannel.cs
+    │   ChunkBlockClearData.cs
+    │   ChunkBlockLayer.cs
+    │   ChunkBlockLayerLegacy.cs
+    │   ChunkCache.cs
+    │   ChunkCacheNeighborBlocks.cs
+    │   ChunkCacheNeighborChunks.cs
+    │   ChunkCaveShadowMeshManager.cs
+    │   ChunkCluster.cs
+    │   ChunkConditions.cs
+    │   ChunkCoordinates.cs
+    │   ChunkCustomData.cs
+    │   ChunkGameObject.cs
+    │   ChunkGameObjectLayer.cs
+    │   ChunkGroupVisualiser.cs
+    │   ChunkKey.cs
+    │   ChunkManager.cs
+    │   ChunkMemoryStreamReader.cs
+    │   ChunkMemoryStreamWriter.cs
+    │   ChunkPreviewData.cs
+    │   ChunkPreviewManager.cs
+    │   ChunkProtectionLevel.cs
+    │   ChunkProviderAbstract.cs
+    │   ChunkProviderDisc.cs
+    │   ChunkProviderDummy.cs
+    │   ChunkProviderGenerateFlat.cs
+    │   ChunkProviderGenerateWorld.cs
+    │   ChunkProviderGenerateWorldFromImage.cs
+    │   ChunkProviderGenerateWorldFromRaw.cs
+    │   ChunkProviderParameter.cs
+    │   ChunkQueue.cs
+    │   ChunkResetCommandHelpers.cs
+    │   ChunkSnapshotUtil.cs
+    │   ChunkVertexLayer.cs
+    │   ClientInfo.cs
+    │   ClientInfoCollection.cs
+    │   CloneToTransform.cs
+    │   ClothFix.cs
+    │   CollectionDebugWrapper.cs
+    │   CollectWaterUtils.cs
+    │   ColliderHitCallForward.cs
+    │   Colliders.cs
+    │   CollisionCallForward.cs
+    │   CollisionParticleController.cs
+    │   Color32EqualityComparer.cs
+    │   ColorMappingsFromXml.cs
+    │   ColorSpectrum.cs
+    │   ColorSwatchApplicator.cs
+    │   CommandSenderInfo.cs
+    │   CompanionGroup.cs
+    │   CompareItemMetaFloat.cs
+    │   CompareLightLevel.cs
+    │   ConnectionManager.cs
+    │   ConsoleCmdAbstract.cs
+    │   ConsoleCmdAccDecay.cs
+    │   ConsoleCmdAdmin.cs
+    │   ConsoleCmdAI.cs
+    │   ConsoleCmdAIDirectorDebug.cs
+    │   ConsoleCmdAIDirectorShowNextWanderingHordeTime.cs
+    │   ConsoleCmdAIDirectorSpawnAirDrop.cs
+    │   ConsoleCmdAIDirectorSpawnHorde.cs
+    │   ConsoleCmdAIDirectorSpawnScouts.cs
+    │   ConsoleCmdAIDirectorSpawnSupplyCrate.cs
+    │   ConsoleCmdAudioManager.cs
+    │   ConsoleCmdAutomation.cs
+    │   ConsoleCmdAutoMove.cs
+    │   ConsoleCmdBan.cs
+    │   ConsoleCmdBents.cs
+    │   ConsoleCmdBuff.cs
+    │   ConsoleCmdBuffPlayer.cs
+    │   ConsoleCmdBugReportOcclusionManager.cs
+    │   ConsoleCmdCamera.cs
+    │   ConsoleCmdCCPhysics.cs
+    │   ConsoleCmdCensor.cs
+    │   ConsoleCmdChallenges.cs
+    │   ConsoleCmdChunkCache.cs
+    │   ConsoleCmdChunkReset.cs
+    │   ConsoleCmdCommandPermissions.cs
+    │   ConsoleCmdConfig.cs
+    │   ConsoleCmdCreateWebUser.cs
+    │   ConsoleCmdCreativeMenu.cs
+    │   ConsoleCmdCVar.cs
+    │   ConsoleCmdDamageReset.cs
+    │   ConsoleCmdDebuff.cs
+    │   ConsoleCmdDebuffPlayer.cs
+    │   ConsoleCmdDebugGameStats.cs
+    │   ConsoleCmdDebugJiggle.cs
+    │   ConsoleCmdDebugMenu.cs
+    │   ConsoleCmdDebugPanels.cs
+    │   ConsoleCmdDebugShot.cs
+    │   ConsoleCmdDebugWeather.cs
+    │   ConsoleCmdDecoMgr.cs
+    │   ConsoleCmdDiscord.cs
+    │   ConsoleCmdDismemberment.cs
+    │   ConsoleCmdDMS.cs
+    │   ConsoleCmdDynamicProperties.cs
+    │   ConsoleCmdExhausted.cs
+    │   ConsoleCmdExportCurrentConfigs.cs
+    │   ConsoleCmdExportPrefab.cs
+    │   ConsoleCmdFallingBlocks.cs
+    │   ConsoleCmdFloatingOrigin.cs
+    │   ConsoleCmdForceEventDate.cs
+    │   ConsoleCmdFov.cs
+    │   ConsoleCmdGameStage.cs
+    │   ConsoleCmdGetGamePrefs.cs
+    │   ConsoleCmdGetGameStats.cs
+    │   ConsoleCmdGetLogfilePath.cs
+    │   ConsoleCmdGetOptions.cs
+    │   ConsoleCmdGetSandboxOptions.cs
+    │   ConsoleCmdGetTime.cs
+    │   ConsoleCmdGfx.cs
+    │   ConsoleCmdGiveQualityItem.cs
+    │   ConsoleCmdGiveQuest.cs
+    │   ConsoleCmdGiveXp.cs
+    │   ConsoleCmdGraph.cs
+    │   ConsoleCmdHelp.cs
+    │   ConsoleCmdJunkDrone.cs
+    │   ConsoleCmdKick.cs
+    │   ConsoleCmdKickAll.cs
+    │   ConsoleCmdKill.cs
+    │   ConsoleCmdKillAll.cs
+    │   ConsoleCmdLights.cs
+    │   ConsoleCmdListDLC.cs
+    │   ConsoleCmdListEntities.cs
+    │   ConsoleCmdListGameObjects.cs
+    │   ConsoleCmdListPlayerIds.cs
+    │   ConsoleCmdListPlayers.cs
+    │   ConsoleCmdListThreads.cs
+    │   ConsoleCmdLogEnvironment.cs
+    │   ConsoleCmdLogFellThroughWorldDebugInfo.cs
+    │   ConsoleCmdLogGameState.cs
+    │   ConsoleCmdLogLevel.cs
+    │   ConsoleCmdLogOwnedEntities.cs
+    │   ConsoleCmdLoot.cs
+    │   ConsoleCmdMapData.cs
+    │   ConsoleCmdMem.cs
+    │   ConsoleCmdMemCl.cs
+    │   ConsoleCmdMemoryProfiler.cs
+    │   ConsoleCmdMeshDataManager.cs
+    │   ConsoleCmdMumblePositionalAudio.cs
+    │   ConsoleCmdNetworkClient.cs
+    │   ConsoleCmdNetworkServer.cs
+    │   ConsoleCmdNewAvatarTest.cs
+    │   ConsoleCmdNewWeatherSurvival.cs
+    │   ConsoleCmdOcclusion.cs
+    │   ConsoleCmdOverlapRecovery.cs
+    │   ConsoleCmdOverrideServerMaxPlayerCount.cs
+    │   ConsoleCmdPathTest.cs
+    │   ConsoleCmdPerformanceProfiler.cs
+    │   ConsoleCmdPermissionsAllowed.cs
+    │   ConsoleCmdPIRS.cs
+    │   ConsoleCmdPlaceBlockRotations.cs
+    │   ConsoleCmdPlaceBlockShapes.cs
+    │   ConsoleCmdPlaceObserver.cs
+    │   ConsoleCmdPlayerVisitMap.cs
+    │   ConsoleCmdPois.cs
+    │   ConsoleCmdPOIWaypoints.cs
+    │   ConsoleCmdPPList.cs
+    │   ConsoleCmdPrefab.cs
+    │   ConsoleCmdPrefabEditor.cs
+    │   ConsoleCmdPrefabUpdater.cs
+    │   ConsoleCmdPrintChunkExpiryInfo.cs
+    │   ConsoleCmdProfileNetwork.cs
+    │   ConsoleCmdProfiler.cs
+    │   ConsoleCmdProfiling.cs
+    │   ConsoleCmdRegionReset.cs
+    │   ConsoleCmdReloadEntityClasses.cs
+    │   ConsoleCmdRemoveQuest.cs
+    │   ConsoleCmdRepairChunkDensity.cs
+    │   ConsoleCmdResetAchievementStats.cs
+    │   ConsoleCmdSaveChunkAgeMap.cs
+    │   ConsoleCmdSaveDataManagerInfo.cs
+    │   ConsoleCmdSaveWorld.cs
+    │   ConsoleCmdScreenEffect.cs
+    │   ConsoleCmdSDCS.cs
+    │   ConsoleCmdSelfExp.cs
+    │   ConsoleCmdServerJunkDrone.cs
+    │   ConsoleCmdServerMessage.cs
+    │   ConsoleCmdSetGamePref.cs
+    │   ConsoleCmdSetGameStat.cs
+    │   ConsoleCmdSetTargetFps.cs
+    │   ConsoleCmdSetTempUnit.cs
+    │   ConsoleCmdSetTime.cs
+    │   ConsoleCmdSetTriggerEffect.cs
+    │   ConsoleCmdSetWaterValue.cs
+    │   ConsoleCmdShow.cs
+    │   ConsoleCmdShowAlbedo.cs
+    │   ConsoleCmdShowChunkData.cs
+    │   ConsoleCmdShowClouds.cs
+    │   ConsoleCmdShowHits.cs
+    │   ConsoleCmdShowNormals.cs
+    │   ConsoleCmdShowSpecular.cs
+    │   ConsoleCmdShowSwings.cs
+    │   ConsoleCmdShowTriggers.cs
+    │   ConsoleCmdShutdown.cs
+    │   ConsoleCmdSignEditorDebug.cs
+    │   ConsoleCmdSignTextureManager.cs
+    │   ConsoleCmdSleep.cs
+    │   ConsoleCmdSleeper.cs
+    │   ConsoleCmdSmoothPOI.cs
+    │   ConsoleCmdSmoothWorldAll.cs
+    │   ConsoleCmdSpawnEntity.cs
+    │   ConsoleCmdSpawnEntityAt.cs
+    │   ConsoleCmdSpawnScreen.cs
+    │   ConsoleCmdSpectatorMode.cs
+    │   ConsoleCmdSpectrum.cs
+    │   ConsoleCmdSquareSpiral.cs
+    │   ConsoleCmdStab.cs
+    │   ConsoleCmdStarve.cs
+    │   ConsoleCmdSwitchView.cs
+    │   ConsoleCmdSystemInfo.cs
+    │   ConsoleCmdTeleport.cs
+    │   ConsoleCmdTeleportPlayer.cs
+    │   ConsoleCmdTeleportPoi.cs
+    │   ConsoleCmdTeleportPoiRelative.cs
+    │   ConsoleCmdTeleportsAbs.cs
+    │   ConsoleCmdTestLoop.cs
+    │   ConsoleCmdTestSystemAbs.cs
+    │   ConsoleCmdThirsty.cs
+    │   ConsoleCmdTraderArea.cs
+    │   ConsoleCmdTransformDebug.cs
+    │   ConsoleCmdTrees.cs
+    │   ConsoleCmdTwitchAdminCommand.cs
+    │   ConsoleCmdTwitchCommand.cs
+    │   ConsoleCmdUIOptions.cs
+    │   ConsoleCmdVersion.cs
+    │   ConsoleCmdVersionUi.cs
+    │   ConsoleCmdVisitMap.cs
+    │   ConsoleCmdVisitPois.cs
+    │   ConsoleCmdWeather.cs
+    │   ConsoleCmdWeatherSurvival.cs
+    │   ConsoleCmdWhitelist.cs
+    │   ConsoleCmdWorkstationMaterials.cs
+    │   ConsoleCmdWorldChunkReset.cs
+    │   ConsoleCmdXui.cs
+    │   ConsoleCommandUnlockInventories.cs
+    │   ConsoleConnectionAbstract.cs
+    │   ConsoleHelper.cs
+    │   Constants.cs
+    │   ConstantValueMetric.cs
+    │   ControllerCamera.cs
+    │   ControllerDebugLabel.cs
+    │   ControllerDebugMacros.cs
+    │   ControllerGUI.cs
+    │   ControllerMouseSimulation.cs
+    │   CoroutineCancellationToken.cs
+    │   CountdownTimer.cs
+    │   CraftCompleteData.cs
+    │   CraftingCategoryDisplayEntry.cs
+    │   CraftingData.cs
+    │   CraftingManager.cs
+    │   CreativeActionEntryFavorite.cs
+    │   CrosshairDrawer.cs
+    │   CrossplatformAuthorizer.cs
+    │   CrossplayAuthorizer.cs
+    │   CursorControllerAbs.cs
+    │   CustomController.cs
+    │   CVarCompare.cs
+    │   CVarOperation.cs
+    │   CVertexWeight.cs
+    │   CWeightList.cs
+    │   DamageMultiplier.cs
+    │   DamageResponse.cs
+    │   DamageSource.cs
+    │   DamageSourceEntity.cs
+    │   DamageText.cs
+    │   DangerRoomEnvironmentSim.cs
+    │   DatabaseWithFixedDS.cs
+    │   DataItem.cs
+    │   DataLoader.cs
+    │   DChunkSquareMesh.cs
+    │   DChunkSquareMeshPool.cs
+    │   DebugDrawNormals.cs
+    │   DebugGameStats.cs
+    │   DebugLines.cs
+    │   DebugWrapper.cs
+    │   DebugWrapperException.cs
+    │   DecoChunk.cs
+    │   DecoManager.cs
+    │   DecoObject.cs
+    │   DecoOccupiedMap.cs
+    │   DecoState.cs
+    │   DecoSuppressArea.cs
+    │   DecoUtils.cs
+    │   DeferredNightVisionEffect.cs
+    │   DelayedLightIgnition.cs
+    │   DelegateGetTerrainHeight.cs
+    │   DesignatedAreaStore.cs
+    │   DetectLeaks.cs
+    │   Detonator.cs
+    │   Dialog.cs
+    │   DialogActionAddBuff.cs
+    │   DialogActionAddItem.cs
+    │   DialogActionAddQuest.cs
+    │   DialogActionCompleteQuest.cs
+    │   DialogActionTrader.cs
+    │   DialogActionVoice.cs
+    │   DialogFromXml.cs
+    │   DialogPhase.cs
+    │   DialogQuestResponseEntry.cs
+    │   DialogRequirementAdmin.cs
+    │   DialogRequirementBuff.cs
+    │   DialogRequirementCanTrade.cs
+    │   DialogRequirementCheckCVar.cs
+    │   DialogRequirementDroneState.cs
+    │   DialogRequirementQuestsAvailable.cs
+    │   DialogRequirementQuestStatus.cs
+    │   DialogRequirementQuestTier.cs
+    │   DialogRequirementQuestTierHighest.cs
+    │   DialogRequirementSkill.cs
+    │   DialogResponse.cs
+    │   DialogResponseEntry.cs
+    │   DialogResponseQuest.cs
+    │   DialogStatement.cs
+    │   DictionaryAddEventHandler.cs
+    │   DictionaryChangedEventArgs.cs
+    │   DictionaryDebugWrapper.cs
+    │   DictionaryEntryModifiedEventHandler.cs
+    │   DictionaryExtension.cs
+    │   DictionaryKeyList.cs
+    │   DictionaryKeyValueList.cs
+    │   DictionaryLinkedList.cs
+    │   DictionaryList.cs
+    │   DictionaryNameId.cs
+    │   DictionaryNameIdMapping.cs
+    │   DictionaryRemoveEventHandler.cs
+    │   DictionarySave.cs
+    │   DictionaryUpdatedValueEventHandler.cs
+    │   DiscordInviteListener.cs
+    │   DiscordManager.cs
+    │   DismemberedPart.cs
+    │   DismemberedPartData.cs
+    │   DismembermentAccessoryMan.cs
+    │   DismembermentManager.cs
+    │   DisplayInfoEntry.cs
+    │   DistantChunk.cs
+    │   DistantChunkBasicMesh.cs
+    │   DistantChunkMap.cs
+    │   DistantChunkMapInfo.cs
+    │   DistantChunkPosData.cs
+    │   DistantTerrain.cs
+    │   DistantTerrainConstants.cs
+    │   DistantTerrainQuadTree.cs
+    │   DMSContentFromXml.cs
+    │   DMSUpdateConditions.cs
+    │   Documentation.cs
+    │   DoNotTouchSerializableFlagsAttribute.cs
+    │   DownloadTexture.cs
+    │   DroneBeamParticle.cs
+    │   DroneLightManager.cs
+    │   DroneManager.cs
+    │   DroneRunningLight.cs
+    │   DroneRunningLightMan.cs
+    │   DroneWeapons.cs
+    │   DropdownArrowButtons.cs
+    │   DuplicateUserIdAuthorizer.cs
+    │   DyMeshData.cs
+    │   DyMeshRegionLoadRequest.cs
+    │   DynamicClassFactory.cs
+    │   DynamicItemState.cs
+    │   DynamicMeshBlockSwap.cs
+    │   DynamicMeshBuilderManager.cs
+    │   DynamicMeshBuilderStatus.cs
+    │   DynamicMeshChunkData.cs
+    │   DynamicMeshChunkDataStorage.cs
+    │   DynamicMeshChunkDataWrapper.cs
+    │   DynamicMeshChunkProcessor.cs
+    │   DynamicMeshClientConnection.cs
+    │   DynamicMeshConsoleCmd.cs
+    │   DynamicMeshContainer.cs
+    │   DynamicMeshData.cs
+    │   DynamicMeshDataQueue.cs
+    │   DynamicMeshDebugConsoleCmd.cs
+    │   DynamicMeshFile.cs
+    │   DynamicMeshItem.cs
+    │   DynamicMeshLoadResult.cs
+    │   DynamicMeshManager.cs
+    │   DynamicMeshPrefabPreviewThread.cs
+    │   DynamicMeshRegion.cs
+    │   DynamicMeshRegionBuilder.cs
+    │   DynamicMeshRegionDataStorage.cs
+    │   DynamicMeshRegionDataWrapper.cs
+    │   DynamicMeshServer.cs
+    │   DynamicMeshServerData.cs
+    │   DynamicMeshServerStatus.cs
+    │   DynamicMeshServerType.cs
+    │   DynamicMeshServerUpdates.cs
+    │   DynamicMeshSettings.cs
+    │   DynamicMeshStates.cs
+    │   DynamicMeshSyncRequest.cs
+    │   DynamicMeshThread.cs
+    │   DynamicMeshUnity.cs
+    │   DynamicMeshUpdateData.cs
+    │   DynamicMeshVoxel.cs
+    │   DynamicMeshVoxelLoad.cs
+    │   DynamicMeshVoxelRegionLoad.cs
+    │   DynamicMusicManager.cs
+    │   DynamicObjectPool.cs
+    │   DynamicObserver.cs
+    │   DynamicPrefabDecorator.cs
+    │   DynamicProperties.cs
+    │   DynamicPropertiesCache.cs
+    │   DynamicRagdollFlags.cs
+    │   DynamicRagdollFlagsExtension.cs
+    │   DynamicRegionState.cs
+    │   DynamicUIAtlas.cs
+    │   DynamicUIAtlasAssigner.cs
+    │   DynamicUIAtlasTools.cs
+    │   EacAuthorizer.cs
+    │   EAccessModifier.cs
+    │   EAIApproachAndAttackTarget.cs
+    │   EAIApproachDistraction.cs
+    │   EAIApproachSpot.cs
+    │   EAIBase.cs
+    │   EAIBlockIf.cs
+    │   EAIBlockingTargetTask.cs
+    │   EAIBreakBlock.cs
+    │   EAIDestroyArea.cs
+    │   EAIDodge.cs
+    │   EAIDroneItemModHealWeapon.cs
+    │   EAIDroneItemModStunWeapon.cs
+    │   EAIDroneItemTask.cs
+    │   EAIItemTask.cs
+    │   EAILeap.cs
+    │   EAILook.cs
+    │   EAIManager.cs
+    │   EAIMeleeAttackTarget.cs
+    │   EAIPathTest.cs
+    │   EAIRangedAttackTarget.cs
+    │   EAIRunAway.cs
+    │   EAIRunawayFromEntity.cs
+    │   EAIRunawayWhenHurt.cs
+    │   EAISetAsTargetIfHurt.cs
+    │   EAISetNearestCorpseAsTarget.cs
+    │   EAISetNearestEntityAsTarget.cs
+    │   EAISetNearestEntityAsTargetSorter.cs
+    │   EAITarget.cs
+    │   EAITaskEntry.cs
+    │   EAITaskList.cs
+    │   EAITerritorial.cs
+    │   EAIWander.cs
+    │   EAuthorizerSyncResult.cs
+    │   EAutoShapeType.cs
+    │   EBlockRotationClasses.cs
+    │   eCameraSnapMode.cs
+    │   EChatDirection.cs
+    │   EChatType.cs
+    │   eControllerJoystickLayout.cs
+    │   EDaytime.cs
+    │   EDragType.cs
+    │   EffectDisplayValue.cs
+    │   EffectGroupDescription.cs
+    │   EffectManager.cs
+    │   eFlatAreaSizeFilter.cs
+    │   EHoldType.cs
+    │   eLastKnownPositionEntityType.cs
+    │   ElectricWireController.cs
+    │   EMessageSender.cs
+    │   EModelBase.cs
+    │   EModelCustom.cs
+    │   EModelDrone.cs
+    │   EModelInstanceAssets.cs
+    │   EModelNpc.cs
+    │   EModelPlayer.cs
+    │   EModelSDCS.cs
+    │   EModelStandard.cs
+    │   EModelSupplyCrate.cs
+    │   EntitlementAddressablesMaps.cs
+    │   EntitlementManager.cs
+    │   EntitlementSetEnum.cs
+    │   Entity.cs
+    │   EntityActivationCommand.cs
+    │   EntityAlive.cs
+    │   EntityAnimal.cs
+    │   EntityAnimalRabbit.cs
+    │   EntityAnimalSnake.cs
+    │   EntityAnimalStag.cs
+    │   EntityAsyncManager.cs
+    │   EntityBackpack.cs
+    │   EntityBandit.cs
+    │   EntityBedrollPositionList.cs
+    │   EntityBicycle.cs
+    │   EntityBuffs.cs
+    │   EntityCar.cs
+    │   EntityClass.cs
+    │   EntityClassesFromXml.cs
+    │   EntityCollisionRules.cs
+    │   EntityCreationData.cs
+    │   EntityDriveable.cs
+    │   EntityDrone.cs
+    │   EntityEnemy.cs
+    │   EntityEnemyAnimal.cs
+    │   EntityFactory.cs
+    │   EntityFallingBlock.cs
+    │   EntityFallingBlocks.cs
+    │   EntityFallingTree.cs
+    │   EntityFlags.cs
+    │   EntityFlying.cs
+    │   EntityGroups.cs
+    │   EntityGroupsFromXml.cs
+    │   EntityGroupSpawnState.cs
+    │   EntityHasMovementTag.cs
+    │   EntityHasStanceTag.cs
+    │   EntityHomerunGoal.cs
+    │   EntityHuman.cs
+    │   EntityInstanceAssets.cs
+    │   EntityItem.cs
+    │   EntityLookHelper.cs
+    │   EntityLootContainer.cs
+    │   EntityMeshCache.cs
+    │   EntityMinEvents.cs
+    │   EntityMinibike.cs
+    │   EntityMotorcycle.cs
+    │   EntityMoveHelper.cs
+    │   EntityNewStyleAvatar.cs
+    │   EntityNPC.cs
+    │   EntityPlayer.cs
+    │   EntityPlayerLocal.cs
+    │   EntitySeeCache.cs
+    │   EntitySpawner.cs
+    │   EntitySpawnerClass.cs
+    │   EntitySpawnerClassesFromXml.cs
+    │   EntitySpawnerClassForDay.cs
+    │   EntityStats.cs
+    │   EntitySupplyCrate.cs
+    │   EntitySupplyPlane.cs
+    │   EntitySurvivor.cs
+    │   EntitySwarm.cs
+    │   EntityTagCompare.cs
+    │   EntityTrader.cs
+    │   EntityTurret.cs
+    │   EntityType.cs
+    │   EntityUINotification.cs
+    │   EntityVBlimp.cs
+    │   EntityVehicle.cs
+    │   EntityVGyroCopter.cs
+    │   EntityVHelicopter.cs
+    │   EntityVJeep.cs
+    │   EntityVulture.cs
+    │   EntityZombie.cs
+    │   EntityZombieCop.cs
+    │   EntityZombieDog.cs
+    │   EnumAIDirectorChunkEvent.cs
+    │   EnumAppState.cs
+    │   EnumArmorDamageModifier.cs
+    │   EnumBodyPartHit.cs
+    │   EnumBodyPartHitExtensions.cs
+    │   EnumCameraRestriction.cs
+    │   EnumCameraShake.cs
+    │   EnumChunkProviderId.cs
+    │   EnumColliderEnabledFlags.cs
+    │   EnumColliderMode.cs
+    │   EnumColliderType.cs
+    │   EnumCreativeMode.cs
+    │   EnumDamageBonusType.cs
+    │   EnumDamageSource.cs
+    │   EnumDamageSourceExtensions.cs
+    │   EnumDamageTypes.cs
+    │   EnumDeathPenalty.cs
+    │   EnumDecoAllowed.cs
+    │   EnumDecoAllowedExtensions.cs
+    │   EnumDecoAllowedSize.cs
+    │   EnumDecoAllowedSlope.cs
+    │   EnumDecoOccupied.cs
+    │   EnumDictionary.cs
+    │   EnumDropEvent.cs
+    │   EnumEnemyDifficulty.cs
+    │   EnumEntityModelView.cs
+    │   EnumEntityStunType.cs
+    │   EnumEntityStunTypeExtensions.cs
+    │   EnumEntityUINotificationDisplayMode.cs
+    │   EnumEntityUINotificationSubject.cs
+    │   EnumerableDebugWrapper.2.cs
+    │   EnumerableDebugWrapper.cs
+    │   EnumExtensions.cs
+    │   EnumGameMessages.cs
+    │   EnumGameMode.cs
+    │   EnumGamePrefs.cs
+    │   EnumGameState.cs
+    │   EnumGameStats.cs
+    │   EnumInsideOutside.cs
+    │   EnumLandClaimDecayMode.cs
+    │   EnumLandClaimOwner.cs
+    │   EnumMapObjectType.cs
+    │   EnumMirrorAlong.cs
+    │   EnumNGUIWindow.cs
+    │   EnumPersistentPlayerDataReason.cs
+    │   EnumPlayerKillingMode.cs
+    │   EnumRemoveEntityReason.cs
+    │   EnumReportCategory.cs
+    │   EnumResetUnprotectedChunksGroupingMode.cs
+    │   EnumSelectionBoxAvailabilities.cs
+    │   EnumSelOpMode.cs
+    │   EnumServerVisibility.cs
+    │   EnumSpawnerSource.cs
+    │   EnumUtils.cs
+    │   EnumWaypointInviteMode.cs
+    │   EnvironmentAudioManager.cs
+    │   EquipItems.cs
+    │   Equipment.cs
+    │   EquipmentSlotGroups.cs
+    │   EquipmentSlots.cs
+    │   Equipment_CosmeticUnlocked.cs
+    │   EquipRandomItem.cs
+    │   ERoutineState.cs
+    │   EServerRelationType.cs
+    │   eSetBlockResponse.cs
+    │   eTPCameraCheckResult.cs
+    │   EventPrefabs.cs
+    │   EventPrefabsClient.cs
+    │   EventsFromXml.cs
+    │   EventSubClient.cs
+    │   EventSubMessage.cs
+    │   EventSubMetadata.cs
+    │   eWayPointListType.cs
+    │   ExampleDragDropItem.cs
+    │   ExampleDragDropSurface.cs
+    │   Explosion.cs
+    │   ExplosionDamageArea.cs
+    │   ExplosionData.cs
+    │   ExportMeshResult.cs
+    │   ExtensionChunkDatabase.cs
+    │   Extensions.cs
+    │   EXUiControllerInteractionType.cs
+    │   EyeAdv_AutoDilation.cs
+    │   EyeLidController.cs
+    │   FaceSpriteAtCamera.cs
+    │   Faction.cs
+    │   FactionManager.cs
+    │   FastEnumConverter.cs
+    │   FastEnumIntEqualityComparer.cs
+    │   FastTags.cs
+    │   FastWireNode.cs
+    │   FeatherFlutter.cs
+    │   FileBackedArray.cs
+    │   FileBackedDecoOccupiedMap.cs
+    │   FireControllerUtils.cs
+    │   FirstPersonAnimator.cs
+    │   FlatArea.cs
+    │   FlatAreaManager.cs
+    │   FlexibleCursor.cs
+    │   FloatRange.cs
+    │   FloodFillEntityPathGenerator.cs
+    │   Fluctuating.cs
+    │   FocusPriority.cs
+    │   FPS.cs
+    │   FrameRateLimiter.cs
+    │   FreeCamera.cs
+    │   FriendsAuthorizer.cs
+    │   Func.2.cs
+    │   Func.3.cs
+    │   Func.cs
+    │   FurCombPainter.cs
+    │   GameEntrypoint.cs
+    │   GameEventActionSequence.cs
+    │   GameEventManager.cs
+    │   GameEventsFromXml.cs
+    │   GameEventVariables.cs
+    │   GameGraphManager.cs
+    │   GameInfoBool.cs
+    │   GameInfoInt.cs
+    │   GameInfoString.cs
+    │   GameIO.cs
+    │   GameLightManager.cs
+    │   GameManager.cs
+    │   GameMode.cs
+    │   GameModeAbstract.cs
+    │   GameModeCreative.cs
+    │   GameModeDeathmatch.cs
+    │   GameModeEditWorld.cs
+    │   GameModeSurvival.cs
+    │   GameModeSurvivalMP.cs
+    │   GameModeSurvivalPvP.cs
+    │   GameModeSurvivalSP.cs
+    │   GameModeZombieHorde.cs
+    │   GameObjectAnimalAnimation.cs
+    │   GameObjectPool.cs
+    │   GameOptionsControls.cs
+    │   GameOptionsManager.cs
+    │   GameOptionsPlatforms.cs
+    │   GameOptionsReset.cs
+    │   GamePrefs.cs
+    │   GameRandom.cs
+    │   GameRandomManager.cs
+    │   GameRenderManager.cs
+    │   GameSenseManager.cs
+    │   GameServerInfo.cs
+    │   GameSparksCollector.cs
+    │   GameSparksManager.cs
+    │   GameStageDefinition.cs
+    │   GameStageGroup.cs
+    │   GameStagesFromXml.cs
+    │   GameStartupHelper.cs
+    │   GameStatBool.cs
+    │   GameStateManager.cs
+    │   GameStatFloat.cs
+    │   GameStatInt.cs
+    │   GameStats.cs
+    │   GameStatsBridge.cs
+    │   GameSunShafts.cs
+    │   GameTimer.cs
+    │   GameUtils.cs
+    │   GCUtils.cs
+    │   GearBoneMap.cs
+    │   GeneratedTextManager.cs
+    │   GenerateVoxelCubeSurface.cs
+    │   GeometryUtils.cs
+    │   GlobalAssets.cs
+    │   GlobalCultureInfo.cs
+    │   GlobalSignId.cs
+    │   GorePrefab.cs
+    │   GridCompressedData.cs
+    │   GroundWaterBounds.cs
+    │   GroundWaterHeightMap.cs
+    │   GSRequestData.cs
+    │   GUIBlinker.cs
+    │   GUIButtonPrompt.cs
+    │   GUIFPS.cs
+    │   GUIHUDEntityName.cs
+    │   GUILocalizedLabel.cs
+    │   GUIUtils.cs
+    │   GUIWindow.cs
+    │   GUIWindowConsole.cs
+    │   GUIWindowConsoleComponents.cs
+    │   GUIWindowManager.cs
+    │   GUIWindowNGUI.cs
+    │   GUIWindowScreenshotText.cs
+    │   GUIWindowUGUI.cs
+    │   HairColorSwatch.cs
+    │   HasAttachedPrefab.cs
+    │   HasBuff.cs
+    │   HashSetList.cs
+    │   HasParticle.cs
+    │   HasTrackedEntity.cs
+    │   HazardDamageController.cs
+    │   HeightMap.cs
+    │   HeightMapUtils.cs
+    │   HitInfoDetails.cs
+    │   HitLocation.cs
+    │   HoldingItemBroken.cs
+    │   HoldingItemHasTags.cs
+    │   HostMpAllowedAuthorizer.cs
+    │   HSBColor.cs
+    │   HsvColor.cs
+    │   HSVUtil.cs
+    │   HUDStatGroups.cs
+    │   HUDStatTypes.cs
+    │   HypeTrainProgressEvent.cs
+    │   IAIDirectorMarker.cs
+    │   IAuthorizationResponses.cs
+    │   IAuthorizer.cs
+    │   IBackedArray.cs
+    │   IBackedArrayHandle.cs
+    │   IBackedArrayView.cs
+    │   IBinaryReaderOrWriter.cs
+    │   IBindingInstance.cs
+    │   IBindingNcalc.cs
+    │   IBiomeProvider.cs
+    │   IBlockAccess.cs
+    │   IBlockTool.cs
+    │   IBodyColliderInstance.cs
+    │   IChunk.cs
+    │   IChunkAccess.cs
+    │   IChunkCallback.cs
+    │   IChunkProvider.cs
+    │   IChunkProviderIndicator.cs
+    │   IConsoleCommand.cs
+    │   IConsoleConnection.cs
+    │   IConsoleServer.cs
+    │   IDataItem.cs
+    │   IDataItemFormatter.cs
+    │   IDesignatedArea.cs
+    │   IdPalette.cs
+    │   IDynamicDecorator.cs
+    │   IEncryptionModule.cs
+    │   IEntityBuffsChanged.cs
+    │   IEntityUINotificationChanged.cs
+    │   IEnumerableExtensions.cs
+    │   IFeaturePhysicalCapabilities.cs
+    │   IFeatureSavedInPrefab.cs
+    │   IFeatureTriggerCapability.cs
+    │   IFocusCondition.cs
+    │   IFocusTarget.cs
+    │   IGameManager.cs
+    │   IGamePrefsChangedListener.cs
+    │   IGameStatsChangedListener.cs
+    │   IInventory.cs
+    │   IInventoryChangedListener.cs
+    │   IItemDataDragSource.cs
+    │   IKController.cs
+    │   ILaunchPref.2.cs
+    │   ILaunchPref.cs
+    │   ILaunchPrefExtensions.cs
+    │   ILightProcessor.cs
+    │   ILockable.cs
+    │   ILockContext.cs
+    │   ILockTarget.cs
+    │   ImageEffectManager.cs
+    │   ImageEffect_TurretView.cs
+    │   IMapChunkDatabase.cs
+    │   IMarchingCubes.cs
+    │   IMemoryPoolableObject.cs
+    │   IMeshGenerator.cs
+    │   IMetric.cs
+    │   IMinEventAction.cs
+    │   IModApi.cs
+    │   ImposterCanvas.cs
+    │   ImposterSignFactory.cs
+    │   InBiome.cs
+    │   InControlExtensions.cs
+    │   IncrementalHashExtensions.cs
+    │   INeighborBlockCache.cs
+    │   INetConnection.cs
+    │   INetworkClient.cs
+    │   INetworkServer.cs
+    │   InGameService.cs
+    │   INGuiButtonOnClick.cs
+    │   INGuiButtonOnDoubleClick.cs
+    │   INGuiButtonOnHover.cs
+    │   INGuiButtonOnIsHeld.cs
+    │   InputAxisHelper.cs
+    │   InputUtils.cs
+    │   InSafeZone.cs
+    │   IntHashMap.cs
+    │   IntHashMapEntry.cs
+    │   IntRange.cs
+    │   IntVect.cs
+    │   InvAttachmentPoint.cs
+    │   InvBaseItem.cs
+    │   InvDatabase.cs
+    │   Inventory.cs
+    │   InventoryBase.cs
+    │   InventoryManager.cs
+    │   InventoryOperation.cs
+    │   InventoryTransaction.cs
+    │   InvEquipment.cs
+    │   InvGameItem.cs
+    │   InviteManager.cs
+    │   InvStat.cs
+    │   IOnAnimatorIKCallback.cs
+    │   IOnPostRender.cs
+    │   IOUtils.cs
+    │   IPackageDestinationFilter.cs
+    │   IPowered.cs
+    │   IPowerSystemCamera.cs
+    │   IProtocolManagerProtocolInterface.cs
+    │   IRegionFileChunkSnapshot.cs
+    │   IRegionFileChunkSnapshotUtil.cs
+    │   IRegionFileDebugUtil.cs
+    │   IRegionFilePlatformFactory.cs
+    │   IRequirement.cs
+    │   IsAlive.cs
+    │   IsAlly.cs
+    │   IsAttachedToEntity.cs
+    │   ISaveDataManager.cs
+    │   ISaveDataPrefs.cs
+    │   IsBloodMoon.cs
+    │   IsCorpse.cs
+    │   IsDay.cs
+    │   IsDayNumber.cs
+    │   ISelectionBoxCallback.cs
+    │   ISelectionCategoryCallback.cs
+    │   IsEquipped.cs
+    │   IServerBrowserFilterControl.cs
+    │   IsFPV.cs
+    │   ISharedChunkObserver.cs
+    │   IsHeldItem.cs
+    │   ISignRenderingDataUpdateListener.cs
+    │   IsIndoors.cs
+    │   IsInstigator.cs
+    │   IsItemActive.cs
+    │   IsLocalPlayer.cs
+    │   IsLookingAtBlock.cs
+    │   IsLookingAtEntity.cs
+    │   IsMale.cs
+    │   IsNight.cs
+    │   IsOnLadder.cs
+    │   IsPrimaryAttack.cs
+    │   IsSDCS.cs
+    │   IsSecondaryAttack.cs
+    │   IsSheltered.cs
+    │   IsSleeping.cs
+    │   IsStatAtMax.cs
+    │   ItemAction.cs
+    │   ItemActionActivate.cs
+    │   ItemActionAttachment.cs
+    │   ItemActionAttack.cs
+    │   ItemActionAttackData.cs
+    │   ItemActionBailLiquid.cs
+    │   ItemActionCancel.cs
+    │   ItemActionCatapult.cs
+    │   ItemActionCollectWater.cs
+    │   ItemActionConnectPower.cs
+    │   ItemActionData.cs
+    │   ItemActionDisconnectPower.cs
+    │   ItemActionDumpWater.cs
+    │   ItemActionDynamic.cs
+    │   ItemActionDynamicMelee.cs
+    │   ItemActionEat.cs
+    │   ItemActionEntryAssemble.cs
+    │   ItemActionEntryCombine.cs
+    │   ItemActionEntryCraft.cs
+    │   ItemActionEntryDrop.cs
+    │   ItemActionEntryEquip.cs
+    │   ItemActionEntryFavorite.cs
+    │   ItemActionEntryMarkdown.cs
+    │   ItemActionEntryMarkup.cs
+    │   ItemActionEntryPurchase.cs
+    │   ItemActionEntryRecipes.cs
+    │   ItemActionEntryRepair.cs
+    │   ItemActionEntryResetPrice.cs
+    │   ItemActionEntryScrap.cs
+    │   ItemActionEntrySell.cs
+    │   ItemActionEntryShowChallenge.cs
+    │   ItemActionEntryShowCosmetics.cs
+    │   ItemActionEntryShowPerk.cs
+    │   ItemActionEntryTake.cs
+    │   ItemActionEntryTrackRecipe.cs
+    │   ItemActionEntryUse.cs
+    │   ItemActionEntryWear.cs
+    │   ItemActionExchangeBlock.cs
+    │   ItemActionExchangeItem.cs
+    │   ItemActionFiringState.cs
+    │   ItemActionGainSkill.cs
+    │   ItemActionLauncher.cs
+    │   ItemActionLearnRecipe.cs
+    │   ItemActionMakeFertile.cs
+    │   ItemActionMelee.cs
+    │   ItemActionOpenBundle.cs
+    │   ItemActionOpenLootBundle.cs
+    │   ItemActionPlaceAsBlock.cs
+    │   ItemActionProjectile.cs
+    │   ItemActionQuest.cs
+    │   ItemActionRanged.cs
+    │   ItemActionRepair.cs
+    │   ItemActionReplaceBlock.cs
+    │   ItemActionSpawnEntity.cs
+    │   ItemActionSpawnTurret.cs
+    │   ItemActionSpawnVehicle.cs
+    │   ItemActionTerrainTool.cs
+    │   ItemActionTextureBlock.cs
+    │   ItemActionThrowAway.cs
+    │   ItemActionThrownWeapon.cs
+    │   ItemActionUseOther.cs
+    │   ItemActionVomit.cs
+    │   ItemActionZoom.cs
+    │   ItemClass.cs
+    │   ItemClassArmor.cs
+    │   ItemClassBlock.cs
+    │   ItemClassesFromXml.cs
+    │   ItemClassHeldEntity.cs
+    │   ItemClassModifier.cs
+    │   ItemClassQuest.cs
+    │   ItemClassTimeBomb.cs
+    │   ItemClassTorch.cs
+    │   ItemClassWaterContainer.cs
+    │   ItemClassWildChicken.cs
+    │   ItemDisplayEntry.cs
+    │   ItemHasTags.cs
+    │   ItemInventoryData.cs
+    │   ItemModificationsFromXml.cs
+    │   ItemStack.cs
+    │   ItemStackExtensions.cs
+    │   ItemStackGrid.cs
+    │   ItemValue.cs
+    │   ItemWorldData.cs
+    │   ITerrainGenerator.cs
+    │   IThreadingSemantics.cs
+    │   ITileArea.cs
+    │   ITileEntity.cs
+    │   ITileEntityChangedListener.cs
+    │   ITileEntityFeature.cs
+    │   ITileEntityLootable.cs
+    │   ITileEntitySignable.cs
+    │   ITrader.cs
+    │   IWireNode.cs
+    │   IWorldDecorator.cs
+    │   IXUiElement.cs
+    │   IXUiWindowConditionalClosing.cs
+    │   JPGEncoder.cs
+    │   JunkSledgeFireController.cs
+    │   LabelUrlUtils.cs
+    │   LagPosition.cs
+    │   LagRotation.cs
+    │   LandClaimBoundsHelper.cs
+    │   LastAccessHelper.cs
+    │   LaunchPrefs.cs
+    │   LaunchSceneScript.cs
+    │   LayerComplexityInfo.cs
+    │   LayerStackInfo.cs
+    │   LegacyAvatarController.cs
+    │   LegacyModAuthorizer.cs
+    │   LevelRequirement.cs
+    │   LightAnim.cs
+    │   LightbarGradients.cs
+    │   LightFlicker.cs
+    │   Lighting.cs
+    │   Lighting3DArray.cs
+    │   LightingAround.cs
+    │   LightLOD.cs
+    │   LightLODHeld.cs
+    │   LightManager.cs
+    │   LightProcessor.cs
+    │   LightState.cs
+    │   LightStateType.cs
+    │   LightViewer.cs
+    │   LinkedDictionary.cs
+    │   ListDebugWrapper.cs
+    │   ListExtensions.cs
+    │   LiveStats.cs
+    │   LoadLevelOnClick.cs
+    │   LoadManager.cs
+    │   Localization.cs
+    │   LocalPlayer.cs
+    │   LocalPlayerCamera.cs
+    │   LocalPlayerFinalCamera.cs
+    │   LocalPlayerManager.cs
+    │   LocalPlayerUI.cs
+    │   LockEntry.cs
+    │   LockManager.cs
+    │   LockTargetType.cs
+    │   LongSetGroups.cs
+    │   LookAtTarget.cs
+    │   LoosePool.cs
+    │   LootContainer.cs
+    │   LootEntryRequirementBiome.cs
+    │   LootEntryRequirementCVar.cs
+    │   LootEntryRequirementProgression.cs
+    │   LootEntryRequirementQuestTags.cs
+    │   LootEntryRequirementRandomRoll.cs
+    │   LootEntryRequirementSandboxOption.cs
+    │   LootFromXml.cs
+    │   LootManager.cs
+    │   MainMenuMono.cs
+    │   ManualTaskScheduler.cs
+    │   ManyToManyDictionary.cs
+    │   MapChunkDatabase.cs
+    │   MapChunkDatabaseByRegion.cs
+    │   MapChunkDatabaseType.cs
+    │   MapObject.cs
+    │   MapObjectAnimal.cs
+    │   MapObjectBackpack.cs
+    │   MapObjectFetchItem.cs
+    │   MapObjectHiddenCache.cs
+    │   MapObjectLandClaim.cs
+    │   MapObjectManager.cs
+    │   MapObjectMarker.cs
+    │   MapObjectQuest.cs
+    │   MapObjectRestorePower.cs
+    │   MapObjectSleeperVolume.cs
+    │   MapObjectSleepingBag.cs
+    │   MapObjectSupplyDrop.cs
+    │   MapObjectTreasureChest.cs
+    │   MapObjectVehicle.cs
+    │   MapObjectVendingMachine.cs
+    │   MapObjectWaypoint.cs
+    │   MapObjectZombie.cs
+    │   MapVisitor.cs
+    │   MarchingCubes.cs
+    │   MaterialBlock.cs
+    │   MaterialsFromXml.cs
+    │   MathUtils.cs
+    │   MemoryBackedArray.cs
+    │   MemoryPooledArray.cs
+    │   MemoryPooledArraySizes.cs
+    │   MemoryPooledObject.cs
+    │   MemoryPools.cs
+    │   MemoryTracker.cs
+    │   MeshCalculations.cs
+    │   MeshDataLayout.cs
+    │   MeshDataManager.cs
+    │   MeshDataUtils.cs
+    │   MeshDescription.cs
+    │   MeshDescriptionCollection.cs
+    │   MeshGenerator.cs
+    │   MeshGeneratorMC2.cs
+    │   MeshGeneratorPrefab.cs
+    │   MeshLists.cs
+    │   MeshLodOptimization.cs
+    │   MeshMorph.cs
+    │   MeshMorphMatrix.cs
+    │   MeshOptimizer.cs
+    │   MeshTiming.cs
+    │   MeshUnsafeCopyHelper.cs
+    │   MetricConversion.cs
+    │   MetricHelpers.cs
+    │   MicroSplatKeywords.cs
+    │   MicroSplatObject.cs
+    │   MicroSplatProceduralTextureConfig.cs
+    │   MicroSplatPropData.cs
+    │   MicroSplatTerrain.cs
+    │   MinEffectController.cs
+    │   MinEffectGameVars.cs
+    │   MinEffectGroup.cs
+    │   MinEvent.cs
+    │   MinEventActionAddBuff.cs
+    │   MinEventActionAddChatMessage.cs
+    │   MinEventActionAddHealth.cs
+    │   MinEventActionAddOrRemoveBuff.cs
+    │   MinEventActionAddPart.cs
+    │   MinEventActionAddPartFPV.cs
+    │   MinEventActionAddPartTPV.cs
+    │   MinEventActionAddProgressionLevel.cs
+    │   MinEventActionAltSounds.cs
+    │   MinEventActionAnimatorFireTrigger.cs
+    │   MinEventActionAnimatorResetTrigger.cs
+    │   MinEventActionAnimatorSetBool.cs
+    │   MinEventActionAnimatorSetFloat.cs
+    │   MinEventActionAnimatorSetInt.cs
+    │   MinEventActionAnimatorSetWalkType.cs
+    │   MinEventActionAttachParticleEffectToEntity.cs
+    │   MinEventActionAttachPrefabToEntity.cs
+    │   MinEventActionAttachPrefabToHeldItem.cs
+    │   MinEventActionAwardChallenge.cs
+    │   MinEventActionAwardQuestStat.cs
+    │   MinEventActionBase.cs
+    │   MinEventActionBuffModifierBase.cs
+    │   MinEventActionCallGameEvent.cs
+    │   MinEventActionCVarLogValue.cs
+    │   MinEventActionExplode.cs
+    │   MinEventActionFadeOutSound.cs
+    │   MinEventActionGetBuffDuration.cs
+    │   MinEventActionGiveExp.cs
+    │   MinEventActionGiveSkillExp.cs
+    │   MinEventActionLogItemData.cs
+    │   MinEventActionLogMessage.cs
+    │   MinEventActionModifyCVar.cs
+    │   MinEventActionModifyScreenEffect.cs
+    │   MinEventActionModifyStat.cs
+    │   MinEventActionModifyStats.cs
+    │   MinEventActionPinToolbeltMessage.cs
+    │   MinEventActionPlaySound.cs
+    │   MinEventActionRagdoll.cs
+    │   MinEventActionRage.cs
+    │   MinEventActionRefreshPerks.cs
+    │   MinEventActionRemoveAllNegativeBuffs.cs
+    │   MinEventActionRemoveBuff.cs
+    │   MinEventActionRemoveCVar.cs
+    │   MinEventActionRemovePart.cs
+    │   MinEventActionRemoveParticleEffectFromEntity.cs
+    │   MinEventActionRemovePrefabFromEntity.cs
+    │   MinEventActionRemoveToolbeltMessage.cs
+    │   MinEventActionResetHeldItem.cs
+    │   MinEventActionResetProgression.cs
+    │   MinEventActionSetAudioMixerState.cs
+    │   MinEventActionSetBigHead.cs
+    │   MinEventActionSetDancing.cs
+    │   MinEventActionSetHeadSize.cs
+    │   MinEventActionSetHeldItemJammed.cs
+    │   MinEventActionSetItemInSlot.cs
+    │   MinEventActionSetItemMetaFloat.cs
+    │   MinEventActionSetNavObject.cs
+    │   MinEventActionSetOverrideLoot.cs
+    │   MinEventActionSetPartActive.cs
+    │   MinEventActionSetPitch.cs
+    │   MinEventActionSetProgressionLevel.cs
+    │   MinEventActionSetScale.cs
+    │   MinEventActionSetTransformActive.cs
+    │   MinEventActionSetTransformChildrenActive.cs
+    │   MinEventActionSetTwitchCooldown.cs
+    │   MinEventActionSetTwitchProgressionDisabled.cs
+    │   MinEventActionShakeCamera.cs
+    │   MinEventActionShowToolbeltMessage.cs
+    │   MinEventActionSoundBase.cs
+    │   MinEventActionStopSound.cs
+    │   MinEventActionTargetedBase.cs
+    │   MinEventActionUnregisterSequenceLink.cs
+    │   MinEventParams.cs
+    │   MinEventTarget.cs
+    │   MinEventTypes.cs
+    │   MiniTurretFireController.cs
+    │   MinScript.cs
+    │   MiscFromXml.cs
+    │   Mod.cs
+    │   ModelViewerCam.cs
+    │   ModEvents.cs
+    │   ModManager.cs
+    │   Morphable.cs
+    │   MotionSensorController.cs
+    │   MovableSharedChunkObserver.cs
+    │   MovementInput.cs
+    │   MultiBlockManager.cs
+    │   MultiSourceAtlasManager.cs
+    │   MumblePositionalAudio.cs
+    │   MusicDataFromXml.cs
+    │   MuzzleFlash.cs
+    │   NameIdMapping.cs
+    │   NativePlatformAuthorizer.cs
+    │   NativeSafeHandle.cs
+    │   NavObject.cs
+    │   NavObjectClass.cs
+    │   NavObjectClassesFromXml.cs
+    │   NavObjectCompassSettings.cs
+    │   NavObjectManager.cs
+    │   NavObjectMapSettings.cs
+    │   NavObjectScreenSettings.cs
+    │   NavObjectSettings.cs
+    │   NetConnectionAbs.cs
+    │   NetConnectionSimple.cs
+    │   NetConnectionStatistics.cs
+    │   NetConnectionSteam.cs
+    │   NetEntityDistribution.cs
+    │   NetEntityDistributionEntry.cs
+    │   NetEntityPackageQueue.cs
+    │   NetPackage.cs
+    │   NetPackageAddRemoveBuff.cs
+    │   NetPackageAllyRequest.cs
+    │   NetPackageAllyResponse.cs
+    │   NetPackageAnimateBlock.cs
+    │   NetPackageAudioPlayInHead.cs
+    │   NetPackageAuthConfirmation.cs
+    │   NetPackageAuthState.cs
+    │   NetPackageBag.cs
+    │   NetPackageBiomeIntensity.cs
+    │   NetPackageBlockLimitTracking.cs
+    │   NetPackageBlockTrigger.cs
+    │   NetPackageBloodmoonMusic.cs
+    │   NetPackageBossEvent.cs
+    │   NetPackageChat.cs
+    │   NetPackageChunk.cs
+    │   NetPackageChunkClusterInfo.cs
+    │   NetPackageChunkRemove.cs
+    │   NetPackageChunkRemoveAll.cs
+    │   NetPackageClientInfo.cs
+    │   NetPackageCloseAllWindows.cs
+    │   NetPackageConfigFile.cs
+    │   NetPackageConfirmSpawnEntity.cs
+    │   NetPackageConsoleCmdClient.cs
+    │   NetPackageConsoleCmdServer.cs
+    │   NetPackageDamageEntity.cs
+    │   NetPackageDebug.cs
+    │   NetPackageDecoResetWorldChunk.cs
+    │   NetPackageDecoResetWorldRect.cs
+    │   NetPackageDecoUpdate.cs
+    │   NetPackageDeleteChunkData.cs
+    │   NetPackageDirection.cs
+    │   NetPackageDiscordIdMappings.cs
+    │   NetPackageDiscordLobbySecret.cs
+    │   NetPackageDropItemsContainer.cs
+    │   NetPackageDynamicClientArrive.cs
+    │   NetPackageDynamicMesh.cs
+    │   NetPackageEAC.cs
+    │   NetPackageEditorAddVolumeFromClient.cs
+    │   NetPackageEditorPrefabInstance.cs
+    │   NetPackageEditorUpdateVolume.cs
+    │   NetPackageEmitSmell.cs
+    │   NetPackageEncryptionPublicKey.cs
+    │   NetPackageEncryptionRequest.cs
+    │   NetPackageEncryptionSharedKey.cs
+    │   NetPackageEntityAddExpClient.cs
+    │   NetPackageEntityAddExpServer.cs
+    │   NetPackageEntityAddScoreClient.cs
+    │   NetPackageEntityAddScoreServer.cs
+    │   NetPackageEntityAddVelocity.cs
+    │   NetPackageEntityAliveFlags.cs
+    │   NetPackageEntityAnimationData.cs
+    │   NetPackageEntityAttach.cs
+    │   NetPackageEntityAwardKillServer.cs
+    │   NetPackageEntityCollect.cs
+    │   NetPackageEntityLookAt.cs
+    │   NetPackageEntityMapMarkerRemove.cs
+    │   NetPackageEntityPhysics.cs
+    │   NetPackageEntityPosAndRot.cs
+    │   NetPackageEntityPrimeDetonator.cs
+    │   NetPackageEntityRagdoll.cs
+    │   NetPackageEntityRelPosAndRot.cs
+    │   NetPackageEntityRemove.cs
+    │   NetPackageEntityRotation.cs
+    │   NetPackageEntitySetPartActive.cs
+    │   NetPackageEntitySetSkillLevelClient.cs
+    │   NetPackageEntitySetSkillLevelServer.cs
+    │   NetPackageEntitySpawn.cs
+    │   NetPackageEntitySpawnResponse.cs
+    │   NetPackageEntitySpeeds.cs
+    │   NetPackageEntityStatChanged.cs
+    │   NetPackageEntityStatsBuff.cs
+    │   NetPackageEntityStealth.cs
+    │   NetPackageEntityTargeted.cs
+    │   NetPackageEntityTeleport.cs
+    │   NetPackageEntityVelocity.cs
+    │   NetPackageEntityWaypointList.cs
+    │   NetPackageEntry.cs
+    │   NetPackageEventPrefab.cs
+    │   NetPackageExplosionClient.cs
+    │   NetPackageExplosionInitiate.cs
+    │   NetPackageGameEventRequest.cs
+    │   NetPackageGameEventResponse.cs
+    │   NetPackageGameMessage.cs
+    │   NetPackageGameStats.cs
+    │   NetPackageHoldingItem.cs
+    │   NetPackageHordeEvent.cs
+    │   NetPackageIdMapping.cs
+    │   NetPackageInfo.cs
+    │   NetPackageInventoryDataRequest.cs
+    │   NetPackageInventoryDataResponse.cs
+    │   NetPackageInventoryKeepOpen.cs
+    │   NetPackageInventoryTransactionRequest.cs
+    │   NetPackageInventoryTransactionResponse.cs
+    │   NetPackageItemActionEffects.cs
+    │   NetPackageItemDrop.cs
+    │   NetPackageItemReload.cs
+    │   NetPackageKeyExchangeComplete.cs
+    │   NetPackageLandClaimRepair.cs
+    │   NetPackageLobbyJoin.cs
+    │   NetPackageLobbyRegisterClient.cs
+    │   NetPackageLocalization.cs
+    │   NetPackageLockRequest.cs
+    │   NetPackageLockResponse.cs
+    │   NetPackageLogger.cs
+    │   NetPackageManager.cs
+    │   NetPackageMapChunks.cs
+    │   NetPackageMapPosition.cs
+    │   NetPackageMeasure.cs
+    │   NetPackageMetrics.cs
+    │   NetPackageMinEventFire.cs
+    │   NetPackageModifyCVar.cs
+    │   NetPackageNavObject.cs
+    │   NetPackageNetMetrics.cs
+    │   NetPackageNPCQuestList.cs
+    │   NetPackageOwnedEntitySync.cs
+    │   NetPackagePackageIds.cs
+    │   NetPackageParticleEffect.cs
+    │   NetPackagePartyActions.cs
+    │   NetPackagePartyData.cs
+    │   NetPackagePartyQuestChange.cs
+    │   NetPackagePersistentPlayerPositions.cs
+    │   NetPackagePersistentPlayerState.cs
+    │   NetPackagePickupBlock.cs
+    │   NetPackagePlayerData.cs
+    │   NetPackagePlayerDenied.cs
+    │   NetPackagePlayerDisconnect.cs
+    │   NetPackagePlayerEquipment.cs
+    │   NetPackagePlayerId.cs
+    │   NetPackagePlayerInventory.cs
+    │   NetPackagePlayerInventoryForAI.cs
+    │   NetPackagePlayerLaserSight.cs
+    │   NetPackagePlayerLogin.cs
+    │   NetPackagePlayerLoginAnswer.cs
+    │   NetPackagePlayerQuestPositions.cs
+    │   NetPackagePlayerSetBackpackPosition.cs
+    │   NetPackagePlayerSpawnedInWorld.cs
+    │   NetPackagePlayerStats.cs
+    │   NetPackagePlayerTwitchStats.cs
+    │   NetPackagePlayerVendingMachine.cs
+    │   NetPackagePOIMetadataRequest.cs
+    │   NetPackagePOIMetadataResponse.cs
+    │   NetPackagePOIWaypoint.cs
+    │   NetPackageQuestEntitySpawn.cs
+    │   NetPackageQuestEvent.cs
+    │   NetPackageQuestGotoPoint.cs
+    │   NetPackageQuestObjectiveUpdate.cs
+    │   NetPackageQuestTreasurePoint.cs
+    │   NetPackageRangeCheckDamageEntity.cs
+    │   NetPackageRegionMetaData.cs
+    │   NetPackageRequestToEnterGame.cs
+    │   NetPackageRequestToSpawnEntity.cs
+    │   NetPackageRequestToSpawnPlayer.cs
+    │   NetPackageSetAttackTarget.cs
+    │   NetPackageSetBlock.cs
+    │   NetPackageSetBlockResponse.cs
+    │   NetPackageSetBlockTexture.cs
+    │   NetPackageSetProp.cs
+    │   NetPackageSharedPartyKill.cs
+    │   NetPackageSharedQuest.cs
+    │   NetPackageShowToolbeltMessage.cs
+    │   NetPackageSignDataRequest.cs
+    │   NetPackageSignDataResponse.cs
+    │   NetPackageSimpleChat.cs
+    │   NetPackageSimpleRPC.cs
+    │   NetPackageSleeperPassiveChange.cs
+    │   NetPackageSleeperPose.cs
+    │   NetPackageSleeperWakeup.cs
+    │   NetPackageSoundAtPosition.cs
+    │   NetPackageTeleportPlayer.cs
+    │   NetPackageTileEntity.cs
+    │   NetPackageTraderData.cs
+    │   NetPackageTurretSpawn.cs
+    │   NetPackageTurretSync.cs
+    │   NetPackageTwitchAccess.cs
+    │   NetPackageTwitchVoteScheduling.cs
+    │   NetPackageVehicleCount.cs
+    │   NetPackageVehicleDataSync.cs
+    │   NetPackageVehiclePositions.cs
+    │   NetPackageVehicleSpawn.cs
+    │   NetPackageWallVolume.cs
+    │   NetPackageWallVolumeRemove.cs
+    │   NetPackageWaterSet.cs
+    │   NetPackageWaterSimChunkUpdate.cs
+    │   NetPackageWaypoint.cs
+    │   NetPackageWeather.cs
+    │   NetPackageWireActions.cs
+    │   NetPackageWireToolActions.cs
+    │   NetPackageWorldAreas.cs
+    │   NetPackageWorldFolder.cs
+    │   NetPackageWorldInfo.cs
+    │   NetPackageWorldInitInfo.cs
+    │   NetPackageWorldInitInfoRequest.cs
+    │   NetPackageWorldSpawnPoints.cs
+    │   NetPackageWorldTime.cs
+    │   NetworkClientLiteNetLib.cs
+    │   NetworkCommonLiteNetLib.cs
+    │   NetworkConnectionError.cs
+    │   NetworkMonitor.cs
+    │   NetworkServerLiteNetLib.cs
+    │   NewAvatarRootMotion.cs
+    │   NewsManager.cs
+    │   NGuiAction.cs
+    │   NGuiButtonOnClickHandler.cs
+    │   NGuiHUDRoot.cs
+    │   NGuiHUDText.cs
+    │   NGuiMapData.cs
+    │   NGuiPanelFade.cs
+    │   NGuiUIFollowTarget.cs
+    │   NGuiWdwDebugPanels.cs
+    │   NGuiWdwInGameHUD.cs
+    │   NguiWdwTerrainEditor.cs
+    │   NGUIWindowManager.cs
+    │   NotHasBuff.cs
+    │   NoThreadingSemantics.cs
+    │   NPCInfo.cs
+    │   NPCIsAlert.cs
+    │   NPCQuestData.cs
+    │   NPCsFromXml.cs
+    │   ObjectDuplicateChecker.cs
+    │   ObjectiveAssemble.cs
+    │   ObjectiveBaseFetchContainer.cs
+    │   ObjectiveBlockActivate.cs
+    │   ObjectiveBlockPickup.cs
+    │   ObjectiveBlockPlace.cs
+    │   ObjectiveBlockUpgrade.cs
+    │   ObjectiveBuff.cs
+    │   ObjectiveClearSleepers.cs
+    │   ObjectiveClosestPOIGoto.cs
+    │   ObjectiveCraft.cs
+    │   ObjectiveEntityKill.cs
+    │   ObjectiveExchangeItemFrom.cs
+    │   ObjectiveFetch.cs
+    │   ObjectiveFetchAnyContainer.cs
+    │   ObjectiveFetchFromContainer.cs
+    │   ObjectiveFetchFromTreasure.cs
+    │   ObjectiveFetchKeep.cs
+    │   ObjectiveGameEvent.cs
+    │   ObjectiveGoto.cs
+    │   ObjectiveInteractWithNPC.cs
+    │   ObjectiveModifierSupplyBox.cs
+    │   ObjectiveModifierTrackBlocks.cs
+    │   ObjectiveOpenWindow.cs
+    │   ObjectivePOIBlockActivate.cs
+    │   ObjectivePOIBlockUpgrade.cs
+    │   ObjectivePOIStayWithin.cs
+    │   ObjectiveRallyPoint.cs
+    │   ObjectiveRallyPointData.cs
+    │   ObjectiveRandomGoto.cs
+    │   ObjectiveRandomGotoNPC.cs
+    │   ObjectiveRandomPOIGoto.cs
+    │   ObjectiveRepair.cs
+    │   ObjectiveReturnToNPC.cs
+    │   ObjectiveScrap.cs
+    │   ObjectiveSpendSkillPoints.cs
+    │   ObjectiveStatAwarded.cs
+    │   ObjectiveStayWithin.cs
+    │   ObjectiveTime.cs
+    │   ObjectiveTreasureChest.cs
+    │   ObjectiveTwitchVote.cs
+    │   ObjectiveValueChanged.cs
+    │   ObjectiveWear.cs
+    │   ObjectMessaging.cs
+    │   ObservableDictionary.cs
+    │   ObserverRequest.cs
+    │   Occludee.cs
+    │   OcclusionManager.cs
+    │   OnActivateItemGameObjectReference.cs
+    │   OnAnimatorIKForwardCall.cs
+    │   OnCompanionGroupChanged.cs
+    │   OnCountChangedEventArgs.cs
+    │   OneToManyDictionary.cs
+    │   OneToOneDictionary.cs
+    │   OnGameBlockRemoved.cs
+    │   OnGameBlocksAdded.cs
+    │   OnGameBlocksRemoved.cs
+    │   OnGameEntityAdded.cs
+    │   OnGameEntityChanged.cs
+    │   OnGameEventAccessApproved.cs
+    │   OnGameEventStatus.cs
+    │   OnPartyChanged.cs
+    │   OnPartyMembersChanged.cs
+    │   OnPostRenderDispatcher.cs
+    │   OpenSimplex2.cs
+    │   OpenSimplex2S.cs
+    │   OpenURLOnClick.cs
+    │   OptimizedList.cs
+    │   OptionalParameterExtensions.cs
+    │   OptionsVideoWindowMode.cs
+    │   Origin.cs
+    │   OriginParticles.cs
+    │   OversizedBlockUtils.cs
+    │   OwnedEntityData.cs
+    │   PackageDestinationAllButEntityID.cs
+    │   PackageDestinationAttachedToEntity.cs
+    │   PackageDestinationInRangeOf.cs
+    │   PackageDestinationSingleEntityID.cs
+    │   PackagesSentInfoEntry.cs
+    │   PackedBoolArray.cs
+    │   PaletteEntry.cs
+    │   PanWithMouse.cs
+    │   ParentControllerState.cs
+    │   ParsingConverters.cs
+    │   ParsingMethodCache.cs
+    │   ParticleChildSpawner.cs
+    │   ParticleEffect.cs
+    │   ParticleLifetimeSwitch.cs
+    │   ParticleSystemSpawnRateLimiter.cs
+    │   ParticleType.cs
+    │   Party.cs
+    │   PartyManager.cs
+    │   PartyQuests.cs
+    │   PartyVoice.cs
+    │   PassiveEffect.cs
+    │   PassiveEffects.cs
+    │   PathAbstractions.cs
+    │   PerformanceProfiler.cs
+    │   PerksUnlocked.cs
+    │   PerlinNoise.cs
+    │   PermissionsManager.cs
+    │   PersistentPlayerData.cs
+    │   PersistentPlayerList.cs
+    │   PersistentPlayerName.cs
+    │   PerspectivePixelPerfect.cs
+    │   PhysicsBodiesFromXml.cs
+    │   PhysicsBodyBoxCollider.cs
+    │   PhysicsBodyCapsuleCollider.cs
+    │   PhysicsBodyColliderBase.cs
+    │   PhysicsBodyColliderConfiguration.cs
+    │   PhysicsBodyInstance.cs
+    │   PhysicsBodyLayout.cs
+    │   PhysicsBodyNullCollider.cs
+    │   PhysicsBodySphereCollider.cs
+    │   PinnedBuffer.2.cs
+    │   PinnedBuffer.cs
+    │   PinnedBufferRef.cs
+    │   PlatformOptimizations.cs
+    │   PlatformUserIdentifierAbs.cs
+    │   PlatformUserIdentifierExtensions.cs
+    │   PlayerActionData.cs
+    │   PlayerActionsBase.cs
+    │   PlayerActionsGlobal.cs
+    │   PlayerActionsGUI.cs
+    │   PlayerActionsLocal.cs
+    │   PlayerActionsPermanent.cs
+    │   PlayerActionsVehicle.cs
+    │   PlayerAutoPilotControllor.cs
+    │   PlayerData.cs
+    │   PlayerDataFile.cs
+    │   PlayerDetails.cs
+    │   PlayerEntityStats.cs
+    │   PlayerEquippedSlots.cs
+    │   PlayerIdAuthorizer.cs
+    │   PlayerInputRecordingSystem.cs
+    │   PlayerInteractions.cs
+    │   PlayerItemCount.cs
+    │   PlayerItemCountByTags.cs
+    │   PlayerIteractionEvent.cs
+    │   PlayerLevel.cs
+    │   PlayerMetaInfo.cs
+    │   PlayerMoveController.cs
+    │   PlayerNameAuthorizer.cs
+    │   PlayerProfile.cs
+    │   PlayerReflectionProbe.cs
+    │   PlayerSlotsAuthorizer.cs
+    │   PlayerStealth.cs
+    │   PlayIdleAnimations.cs
+    │   PList.cs
+    │   PNG2TGA.cs
+    │   POIBoundsHelper.cs
+    │   POIBoundsSideHelper.cs
+    │   PoiMapBlock.cs
+    │   PoiMapDecal.cs
+    │   PoiMapElement.cs
+    │   POIMarkerToolManager.cs
+    │   POIWaypoint.cs
+    │   Polarizer.cs
+    │   PooledBinaryReader.cs
+    │   PooledBinaryWriter.cs
+    │   PooledExpandableMemoryStream.cs
+    │   PooledMemoryStream.cs
+    │   PowerBatteryBank.cs
+    │   PowerConsumer.cs
+    │   PowerConsumerSingle.cs
+    │   PowerConsumerToggle.cs
+    │   PowerElectricWireRelay.cs
+    │   PowerGenerator.cs
+    │   PowerItem.cs
+    │   PowerManager.cs
+    │   PowerPressurePlate.cs
+    │   PowerRangedTrap.cs
+    │   PowerSolarPanel.cs
+    │   PowerSource.cs
+    │   PowerTimerRelay.cs
+    │   PowerTrigger.cs
+    │   PowerTripWireRelay.cs
+    │   Prefab.cs
+    │   PrefabCache.cs
+    │   PrefabCheckState.cs
+    │   PrefabData.cs
+    │   PrefabDataInstance.cs
+    │   PrefabEditModeManager.cs
+    │   PrefabHelpers.cs
+    │   PrefabInsideDataFile.cs
+    │   PrefabInstance.cs
+    │   PrefabInstanceClientManager.cs
+    │   PrefabInstanceGizmo.cs
+    │   PrefabLODManager.cs
+    │   PrefabPreviewManager.cs
+    │   PrefabTriggerData.cs
+    │   PrefabVolumeManager.cs
+    │   PreferenceTracker.cs
+    │   PrefType.cs
+    │   PrefVersionStore.cs
+    │   PreserveCheckPatch.cs
+    │   ProfilerCaptureUtils.cs
+    │   ProfilerExt.cs
+    │   ProfilerGameUtils.cs
+    │   ProfilerPlatformCorrections.cs
+    │   ProfilerRecorderMetric.cs
+    │   ProfilerScope.cs
+    │   ProfilerUtils.cs
+    │   ProfileSDF.cs
+    │   ProfilingMetricCapture.cs
+    │   Progression.cs
+    │   ProgressionClass.cs
+    │   ProgressionCurrencyType.cs
+    │   ProgressionFromXml.cs
+    │   ProgressionLevel.cs
+    │   ProgressionType.cs
+    │   ProgressionValue.cs
+    │   ProjectileHasTags.cs
+    │   ProjectileManager.cs
+    │   ProjectileMoveScript.cs
+    │   PropChangeInfo.cs
+    │   PropEntityData.cs
+    │   PropRef.cs
+    │   PropReference.cs
+    │   PropTransform.cs
+    │   PropValue.cs
+    │   ProtocolManager.cs
+    │   PublicizedFromAttribute.cs
+    │   Pulsing.cs
+    │   pulsingLightEmissive.cs
+    │   QTDataElement.cs
+    │   QualityInfo.cs
+    │   QualityInfoFromXml.cs
+    │   Quest.cs
+    │   QuestActionGameEvent.cs
+    │   QuestActionSetCVar.cs
+    │   QuestActionShowMessageWindow.cs
+    │   QuestActionSpawnEnemy.cs
+    │   QuestActionSpawnGSEnemy.cs
+    │   QuestActionTrackChallenge.cs
+    │   QuestActionTrackQuest.cs
+    │   QuestActionTreasureChest.cs
+    │   QuestActionUnlockPOI.cs
+    │   QuestClass.cs
+    │   QuestCriteriaLevel.cs
+    │   QuestCriteriaPOIWithinDistance.cs
+    │   QuestEntry.cs
+    │   QuestEvent.cs
+    │   QuestEventManager.cs
+    │   QuestEvent_BiomeEvent.cs
+    │   QuestEvent_BlockChangedEvent.cs
+    │   QuestEvent_BlockDestroyEvent.cs
+    │   QuestEvent_BlockEvent.cs
+    │   QuestEvent_ChallengeAwardCredit.cs
+    │   QuestEvent_ChallengeCompleteEvent.cs
+    │   QuestEvent_EntityKillEvent.cs
+    │   QuestEvent_Event.cs
+    │   QuestEvent_Explosion.cs
+    │   QuestEvent_FloatEvent.cs
+    │   QuestEvent_HarvestStackActionEvent.cs
+    │   QuestEvent_IntegerActionEvent.cs
+    │   QuestEvent_ItemStackActionEvent.cs
+    │   QuestEvent_ItemValueActionEvent.cs
+    │   QuestEvent_NPCInteracted.cs
+    │   QuestEvent_NPCKilled.cs
+    │   QuestEvent_OpenContainer.cs
+    │   QuestEvent_PurchaseEvent.cs
+    │   QuestEvent_QuestCompleteEvent.cs
+    │   QuestEvent_SkillPointSpent.cs
+    │   QuestEvent_SleepersCleared.cs
+    │   QuestEvent_SleeperVolumePositionChanged.cs
+    │   QuestEvent_StringEvent.cs
+    │   QuestEvent_TwitchEvent.cs
+    │   QuestEvent_WindowChanged.cs
+    │   QuestGeneratorController.cs
+    │   QuestJournal.cs
+    │   QuestJournal_QuestEvent.cs
+    │   QuestJournal_QuestSharedEvent.cs
+    │   QuestList.cs
+    │   QuestLockInstance.cs
+    │   QuestPositionData.cs
+    │   QuestsFromXml.cs
+    │   QuestTierReward.cs
+    │   QuestTraderData.cs
+    │   RagdollWhenHit.cs
+    │   RaidEvent.cs
+    │   RandomPositionGenerator.cs
+    │   RandomRoll.cs
+    │   RaycastEntityPathGenerator.cs
+    │   RaycastPathManager.cs
+    │   ReaderWriterLockSlimExtensions.cs
+    │   ReadOnlyDictionaryWrapper.cs
+    │   ReadOnlyListWrapper.cs
+    │   ReadProceduralTextureExample.cs
+    │   Recipe.cs
+    │   RecipeQueueItem.cs
+    │   RecipesFromXml.cs
+    │   RecipeUnlockData.cs
+    │   RecipeUnlocked.cs
+    │   RefCountedBuffer.cs
+    │   ReferenceEqualityComparer.2.cs
+    │   ReferenceEqualityComparer.cs
+    │   ReflectionHelpers.cs
+    │   ReflectionManager.cs
+    │   ReflectiveWater.cs
+    │   RegionFile.cs
+    │   RegionFileAccessAbstract.cs
+    │   RegionFileAccessMultipleChunks.cs
+    │   RegionFileAccessRaw.cs
+    │   RegionFileAccessSectorBased.cs
+    │   RegionFileChunkReader.cs
+    │   RegionFileChunkSnapshot.cs
+    │   RegionFileChunkWriter.cs
+    │   RegionFileDebugUtilRaw.cs
+    │   RegionFileDebugUtilSectorBased.cs
+    │   RegionFileFactoryRaw.cs
+    │   RegionFileFactorySectorBased.cs
+    │   RegionFileLog.cs
+    │   RegionFileManager.cs
+    │   RegionFilePlatform.cs
+    │   RegionFileRaw.cs
+    │   RegionFileSectorBased.cs
+    │   RegionFileV1.cs
+    │   RegionFileV2.cs
+    │   RegionItemData.cs
+    │   ReleaseAssetsOnDestroy.cs
+    │   RemoteWorldInfo.cs
+    │   RemoveSelfLater.cs
+    │   RenderBlock.cs
+    │   RenderCubeType.cs
+    │   RenderDisplacedCube.cs
+    │   RenderItem.cs
+    │   RenderTextureSystem.cs
+    │   RequirementBase.cs
+    │   RequirementGroup.cs
+    │   RequirementItemModTier.cs
+    │   RequirementItemTier.cs
+    │   RespawnProgress.cs
+    │   RespawnType.cs
+    │   RestorePowerQuestData.cs
+    │   Reward.cs
+    │   RewardExp.cs
+    │   RewardItem.cs
+    │   RewardLevel.cs
+    │   RewardLootItem.cs
+    │   RewardQuest.cs
+    │   RewardRecipe.cs
+    │   RewardShowMessageWindow.cs
+    │   RewardSkill.cs
+    │   RewardSkillPoints.cs
+    │   RewardTreasureItem.cs
+    │   RingBuffer.cs
+    │   RoamingPrefs.cs
+    │   RootTransformRef.cs
+    │   RootTransformRefEntity.cs
+    │   RootTransformRefParent.cs
+    │   RotateObject.cs
+    │   RotatingText.cs
+    │   RoundsInMagazine.cs
+    │   SandboxOptionBool.cs
+    │   SandboxOptionFloat.cs
+    │   SandboxOptionInt.cs
+    │   SandboxOverridesFromXml.cs
+    │   SandboxPresetGroupData.cs
+    │   SandboxPresetInfo.cs
+    │   SandboxPresetSelectionChangedDelegate.cs
+    │   SaveBufferPool.cs
+    │   SaveDataLimit.cs
+    │   SaveDataLimitExtensions.cs
+    │   SaveDataLimitType.cs
+    │   SaveDataLimitUIHelper.cs
+    │   SaveDataLimitUtils.cs
+    │   SaveDataManagedPath.cs
+    │   SaveDataManager.cs
+    │   SaveDataManagerBase.cs
+    │   SaveDataManager_Minimal.cs
+    │   SaveDataManager_Placeholder.cs
+    │   SaveDataMergedPlatformSaveGameIOProvider.cs
+    │   SaveDataPrefsFile.cs
+    │   SaveDataPrefsUninitialized.cs
+    │   SaveDataPrefsUnity.cs
+    │   SaveDataSizes.cs
+    │   SaveDataSlot.cs
+    │   SaveDataType.cs
+    │   SaveDataTypeExtensions.cs
+    │   SaveDataUtils.cs
+    │   SaveDataWriteMode.cs
+    │   SaveInfoProvider.cs
+    │   SBlockPosValue.cs
+    │   ScopedChunkAccess.cs
+    │   ScopedChunkReadAccess.cs
+    │   ScopedChunkWriteAccess.cs
+    │   ScoreConditions.cs
+    │   ScreenEffects.cs
+    │   ScreenEffectsProxy.cs
+    │   ScreenEffectsProxyRenderer.cs
+    │   ScreenshotData.cs
+    │   ScreenSpaceParticleAspectScaler.cs
+    │   ScriptBase.cs
+    │   SDCSArchetypesFromXml.cs
+    │   SDCSDataUtils.cs
+    │   SDCSUtils.cs
+    │   SdDirectory.cs
+    │   SdDirectoryInfo.cs
+    │   SdDirectoryInfoExtensions.cs
+    │   SdEncoding.cs
+    │   SdFile.cs
+    │   SdFileInfo.cs
+    │   SdFileSystemInfo.cs
+    │   SdPlayerPrefs.cs
+    │   SdtdConsole.cs
+    │   SdXDocument.cs
+    │   SdXDocumentExtensions.cs
+    │   SdXmlDocumentExtensions.cs
+    │   SelectionBox.cs
+    │   SelectionBoxManager.cs
+    │   SelectionCategory.cs
+    │   SEntityClassAndProb.cs
+    │   Serializable.cs
+    │   ServerDateTimeRequest.cs
+    │   ServerDateTimeResult.cs
+    │   ServerHelper.cs
+    │   ServerInfoCache.cs
+    │   ServerInformationTcpClient.cs
+    │   ServerInformationTcpProvider.cs
+    │   ServerListManager.cs
+    │   ServerStateAuthorizer.cs
+    │   ServiceActionEntryRent.cs
+    │   SetColorPickerColor.cs
+    │   SetShadowMapAsGlobalTexture.cs
+    │   ShaderGlobalsHelper.cs
+    │   ShapesFromXml.cs
+    │   SharedChunkObserverCache.cs
+    │   SharedQuestEntry.cs
+    │   SignBakeRequest.cs
+    │   SignCanvas.cs
+    │   SignComplexityInfo.cs
+    │   SignData.cs
+    │   SignDataManager.cs
+    │   SignFontConfiguration.cs
+    │   SignLibrary.cs
+    │   SignLibraryMigrations.cs
+    │   SignPrioritizer.cs
+    │   SignRenderer.cs
+    │   SignShaderIDs.cs
+    │   SignTextureExporter.cs
+    │   SignTextureManager.cs
+    │   SignTextureStore.cs
+    │   SignUIStyle.cs
+    │   SimpleBitStream.cs
+    │   SimpleGraph.cs
+    │   SimpleMeshFile.cs
+    │   SimpleMeshInfo.cs
+    │   SimpleRPCType.cs
+    │   SimplexNoise.cs
+    │   SingleThreadTaskScheduler.cs
+    │   SingletonMonoBehaviour.cs
+    │   SizeUtils.cs
+    │   SkinnedCollisionHelper.cs
+    │   SkinnedMeshCombiner.cs
+    │   SkinningTestSceneTools.cs
+    │   SkinTextureOverride.cs
+    │   SkyManager.cs
+    │   SleeperEventData.cs
+    │   SleeperPreview.cs
+    │   SleeperVolume.cs
+    │   SleeperVolumeToolManager.cs
+    │   SmartArray.cs
+    │   SmartTextMesh.cs
+    │   SNetPackageInfo.cs
+    │   SoftCursor.cs
+    │   SoundsFromXml.cs
+    │   SpanUtils.cs
+    │   SpawnManagerAbstract.cs
+    │   SpawnManagerBiomes.cs
+    │   SpawnManagerDynamic.cs
+    │   SpawnMethod.cs
+    │   SpawnPoint.cs
+    │   SpawnPointList.cs
+    │   SpawnPointManager.cs
+    │   SpawnPosition.cs
+    │   SpectrumWeatherType.cs
+    │   SpeedTreeLODController.cs
+    │   SpeedTreeMotionVectorHelper.cs
+    │   SpeedTreeWindHistoryBufferManager.cs
+    │   Spin.cs
+    │   SpinningBladeTrapBladeController.cs
+    │   SpinningBladeTrapController.cs
+    │   SpinWithMouse.cs
+    │   SplashScreenScript.cs
+    │   SpotlightController.cs
+    │   SSpawnedEntity.cs
+    │   StabilityCalculator.cs
+    │   StabilityInitializer.cs
+    │   StabilityViewer.cs
+    │   StackSortUtil.cs
+    │   Stat.cs
+    │   StatCompareAbs.cs
+    │   StatCompareCurrent.cs
+    │   StatCompareMax.cs
+    │   StatCompareModMax.cs
+    │   StatComparePercCurrentToMax.cs
+    │   StatComparePercCurrentToModMax.cs
+    │   StatComparePercModMaxToMax.cs
+    │   StateHistory.cs
+    │   StepSound.cs
+    │   StockFileHashes.cs
+    │   StreamUtils.cs
+    │   StringParsers.cs
+    │   StringParsersTests.cs
+    │   StringSpan.cs
+    │   StringSpanDictionary.cs
+    │   StringUtils.cs
+    │   Submission.cs
+    │   SubscriptionEvent.cs
+    │   SubscriptionEventBase.cs
+    │   SubscriptionGiftEvent.cs
+    │   SubscriptionMessageEvent.cs
+    │   SunShaftsEffect.cs
+    │   SunShaftsEffectRenderer.cs
+    │   TagGroup.cs
+    │   Tags.cs
+    │   TargetedCompareRequirementBase.cs
+    │   TargetRange.cs
+    │   TaskManager.cs
+    │   TEFeatureAbs.cs
+    │   TEFeatureAreaRepair.cs
+    │   TEFeatureCanvas.cs
+    │   TEFeatureCombine.cs
+    │   TEFeatureDoor.cs
+    │   TEFeatureExplodable.cs
+    │   TEFeatureLandClaim.cs
+    │   TEFeatureLockable.cs
+    │   TEFeatureLockPickable.cs
+    │   TEFeaturePickup.cs
+    │   TEFeatureSignable.cs
+    │   TEFeatureStorage.cs
+    │   TelnetConnection.cs
+    │   TelnetConsole.cs
+    │   TemporaryObject.cs
+    │   TerrainAlignmentMode.cs
+    │   TerrainAlignmentUtils.cs
+    │   TerrainFromDTM.cs
+    │   TerrainFromRaw.cs
+    │   TerrainGeneratorWithBiomeResource.cs
+    │   TerrainMapGenerator.cs
+    │   TerrainSubMesh.cs
+    │   TextEllipsisAnimator.cs
+    │   TextureAtlas.cs
+    │   TextureAtlasBlocks.cs
+    │   TextureAtlasExternalModels.cs
+    │   TextureAtlasTerrain.cs
+    │   TextureContainer.cs
+    │   TextureDynamicLoader.cs
+    │   TextureFullArray.cs
+    │   TextureLoadingManager.cs
+    │   TextureScale.cs
+    │   TexturesSkybox.cs
+    │   TextureUtils.cs
+    │   TGALoader.cs
+    │   ThreadContainer.cs
+    │   ThreadContainerPool.cs
+    │   ThreadedFileWriterQueue.cs
+    │   ThreadInfoParam.cs
+    │   ThreadInfoParamPool.cs
+    │   ThreadManager.cs
+    │   ThreadProcessing.cs
+    │   ThreadProcessingPool.cs
+    │   ThreadSafeSemantics.cs
+    │   ThrownWeaponMoveScript.cs
+    │   TileArea.cs
+    │   TileAreaCache.cs
+    │   TileAreaConfig.cs
+    │   TileAreaSimple.cs
+    │   TileAreaUtils.cs
+    │   TileEntity.cs
+    │   TileEntityCollector.cs
+    │   TileEntityComposite.cs
+    │   TileEntityCompositeData.cs
+    │   TileEntityExtensions.cs
+    │   TileEntityFeatureData.cs
+    │   TileEntityForge.cs
+    │   TileEntityLegacyUtils.cs
+    │   TileEntityLight.cs
+    │   TileEntityPowered.cs
+    │   TileEntityPoweredBlock.cs
+    │   TileEntityPoweredMeleeTrap.cs
+    │   TileEntityPoweredRangedTrap.cs
+    │   TileEntityPoweredTrigger.cs
+    │   TileEntityPowerSource.cs
+    │   TileEntitySleeper.cs
+    │   TileEntityType.cs
+    │   TileEntityVendingMachine.cs
+    │   TileEntityWorkstation.cs
+    │   TileFile.cs
+    │   TimeOfDay.cs
+    │   TimerEventData.cs
+    │   TimerEventHandler.cs
+    │   TimeRotateObject.cs
+    │   TintableMaterialBaker.cs
+    │   TitleStorageOverridesManager.cs
+    │   TList.cs
+    │   ToggleCapsLock.cs
+    │   TokenManager.cs
+    │   ToolTipEvent.cs
+    │   ToolTipEventHandler.cs
+    │   TooManyPlayerSlotsAuthorizer.cs
+    │   TQueue.cs
+    │   TraderArea.cs
+    │   TraderAreaStates.cs
+    │   TraderData.cs
+    │   TraderDoorController.cs
+    │   TraderInfo.cs
+    │   TraderManager.cs
+    │   TradersFromXml.cs
+    │   TraderStageTemplate.cs
+    │   TraderStageTemplateGroup.cs
+    │   Trajectory.cs
+    │   TrajectorySimulation.cs
+    │   TransactionalInventory.cs
+    │   TransformDebug.cs
+    │   Transvoxel.cs
+    │   TreasureQuestData.cs
+    │   TriggerEffectDualsenseParsers.cs
+    │   TriggerEffectManager.cs
+    │   TriggerEffectXboxParsers.cs
+    │   TriggerHasTags.cs
+    │   TriggerManager.cs
+    │   TriggerVolume.cs
+    │   TripWireController.cs
+    │   TurnTable.cs
+    │   TurretTracker.cs
+    │   Tutorial5.cs
+    │   TwitchActionGroup.cs
+    │   TwitchActionsFromXml.cs
+    │   TwitchDropAvailabilityManager.cs
+    │   TypedMetadataValue.cs
+    │   UAIFromXml.cs
+    │   UIAtlasFromFolder.cs
+    │   UICursor.cs
+    │   UIDisplayInfoFromXml.cs
+    │   UIDisplayInfoManager.cs
+    │   UIEquipmentSlot.cs
+    │   UIItemSlot.cs
+    │   UIItemStorage.cs
+    │   UIOptions.cs
+    │   UISliderColors.cs
+    │   UIStorageSlot.cs
+    │   UMACharacterBodyAnimator.cs
+    │   UnityDistantTerrain.cs
+    │   UnityDistantTerrainTest.cs
+    │   UnityDistantTerrainWaterPlane.cs
+    │   UnityMemoryProfilerLabel.cs
+    │   UnitySourceGeneratedAssemblyMonoScriptTypes_v1.cs
+    │   UnsafeBitArraySetIndicesEnumerator.cs
+    │   UnsafeChunkData.cs
+    │   UnsafeChunkXZMap.cs
+    │   UnsafeFixedBuffer.cs
+    │   UpdateLight.cs
+    │   UpdateLightOnAllMaterials.cs
+    │   UpdateLightOnChunkMesh.cs
+    │   UpdateLightOnPlayers.cs
+    │   UserDataManagement.cs
+    │   UtilList.cs
+    │   Utils.cs
+    │   UVRectTiling.cs
+    │   ValueDisplayFormatters.cs
+    │   ValueModifierBase.cs
+    │   Vector2d.cs
+    │   Vector2EqualityComparer.cs
+    │   Vector2F.cs
+    │   Vector2i.cs
+    │   Vector3b.cs
+    │   Vector3d.cs
+    │   Vector3EqualityComparer.cs
+    │   Vector3i.cs
+    │   Vector3ToFixedEqualityComparer.cs
+    │   Vehicle.cs
+    │   VehicleManager.cs
+    │   VehiclePart.cs
+    │   VehiclesFromXml.cs
+    │   VersionAuthorizer.cs
+    │   VersionInformation.cs
+    │   VertexDistortion.cs
+    │   VideoData.cs
+    │   VideoFromXML.cs
+    │   VideoManager.cs
+    │   VideoSubtitle.cs
+    │   VoiceHelpers.cs
+    │   VolumeKey.cs
+    │   Voxel.cs
+    │   VoxelMesh.cs
+    │   VoxelMeshExt3dModel.cs
+    │   VoxelMeshLayer.cs
+    │   VoxelMeshTerrain.cs
+    │   VPChassis.cs
+    │   VPEngine.cs
+    │   VPFuelTank.cs
+    │   VPHeadlight.cs
+    │   VPPedals.cs
+    │   VPSeat.cs
+    │   VPSteering.cs
+    │   VPStorage.cs
+    │   VPWheel.cs
+    │   vp_3DUtility.cs
+    │   vp_3rdPersonWeaponAim.cs
+    │   vp_Activity.2.cs
+    │   vp_Activity.cs
+    │   vp_AmmoPickup.cs
+    │   vp_AngleBob.cs
+    │   vp_Attempt.2.cs
+    │   vp_Attempt.cs
+    │   vp_AudioUtility.cs
+    │   vp_Billboard.cs
+    │   vp_Bob.cs
+    │   vp_BodyAnimator.cs
+    │   vp_Climb.cs
+    │   vp_Component.cs
+    │   vp_ComponentPreset.cs
+    │   vp_CustomType.cs
+    │   vp_DamageHandler.cs
+    │   vp_DamageInfo.cs
+    │   vp_Debris.cs
+    │   vp_DecalManager.cs
+    │   vp_DemoManager.cs
+    │   vp_DoomsDayDevice.cs
+    │   vp_Event.cs
+    │   vp_EventDump.cs
+    │   vp_EventHandler.cs
+    │   vp_Explosion.cs
+    │   vp_FootstepManager.cs
+    │   vp_FPBodyAnimator.cs
+    │   vp_FPCamera.cs
+    │   vp_FPController.cs
+    │   vp_FPEarthquake.cs
+    │   vp_FPInput.cs
+    │   vp_FPInteractManager.cs
+    │   vp_FPInventory.cs
+    │   vp_FPPistolReloader.cs
+    │   vp_FPPlayerDamageHandler.cs
+    │   vp_FPPlayerEventHandler.cs
+    │   vp_FPSDemo1.cs
+    │   vp_FPSDemo2.cs
+    │   vp_FPSDemo3.cs
+    │   vp_FPSDemoManager.cs
+    │   vp_FPSDemoPlaceHolderMessenger.cs
+    │   vp_FPWeapon.cs
+    │   vp_FPWeaponHandler.cs
+    │   vp_FPWeaponMeleeAttack.cs
+    │   vp_FPWeaponReloader.cs
+    │   vp_FPWeaponShooter.cs
+    │   vp_FPWeaponThrower.cs
+    │   vp_FractalNoise.cs
+    │   vp_Gameplay.cs
+    │   vp_Gizmo.cs
+    │   vp_GlobalCallback.2.cs
+    │   vp_GlobalCallback.3.cs
+    │   vp_GlobalCallback.4.cs
+    │   vp_GlobalCallback.cs
+    │   vp_GlobalCallbackReturn.2.cs
+    │   vp_GlobalCallbackReturn.3.cs
+    │   vp_GlobalCallbackReturn.4.cs
+    │   vp_GlobalCallbackReturn.cs
+    │   vp_GlobalEvent.2.cs
+    │   vp_GlobalEvent.3.cs
+    │   vp_GlobalEvent.4.cs
+    │   vp_GlobalEvent.cs
+    │   vp_GlobalEventInternal.cs
+    │   vp_GlobalEventMode.cs
+    │   vp_GlobalEventReturn.2.cs
+    │   vp_GlobalEventReturn.3.cs
+    │   vp_GlobalEventReturn.4.cs
+    │   vp_GlobalEventReturn.cs
+    │   vp_Grab.cs
+    │   vp_Grenade.cs
+    │   vp_HealthPickup.cs
+    │   vp_HitscanBullet.cs
+    │   vp_Input.cs
+    │   vp_Interactable.cs
+    │   vp_Inventory.cs
+    │   vp_ItemIdentifier.cs
+    │   vp_ItemInstance.cs
+    │   vp_ItemPickup.cs
+    │   vp_ItemType.cs
+    │   vp_KillZone.cs
+    │   vp_Layer.cs
+    │   vp_MathUtility.cs
+    │   vp_Message.2.cs
+    │   vp_Message.3.cs
+    │   vp_Message.cs
+    │   vp_MovingPlatform.cs
+    │   vp_MuzzleFlash.cs
+    │   vp_PainHUD.cs
+    │   vp_Perlin.cs
+    │   vp_Pickup.cs
+    │   vp_Placement.cs
+    │   vp_PlatformSwitch.cs
+    │   vp_PlayerDamageHandler.cs
+    │   vp_PlayerEventHandler.cs
+    │   vp_PlayerInventory.cs
+    │   vp_PlayerRespawner.cs
+    │   vp_PoolManager.cs
+    │   vp_PulsingLight.cs
+    │   vp_RagdollHandler.cs
+    │   vp_RandomSpawner.cs
+    │   vp_Remover.cs
+    │   vp_Respawner.cs
+    │   vp_RigidbodyImpulse.cs
+    │   vp_RigidbodyImpulse_random.cs
+    │   vp_SecurityCamTurret.cs
+    │   vp_Shell.cs
+    │   vp_Shooter.cs
+    │   vp_SimpleAITurret.cs
+    │   vp_SimpleCrosshair.cs
+    │   vp_SimpleFiring.cs
+    │   vp_SimpleHUD.cs
+    │   vp_SimpleInventory.cs
+    │   vp_SlomoPickup.cs
+    │   vp_SmoothRandom.cs
+    │   vp_SpawnPoint.cs
+    │   vp_SpeedPickup.cs
+    │   vp_Spin.cs
+    │   vp_Spring.cs
+    │   vp_State.cs
+    │   vp_StateEventHandler.cs
+    │   vp_StateManager.cs
+    │   vp_SurfaceIdentifier.cs
+    │   vp_Switch.cs
+    │   vp_TargetEvent.2.cs
+    │   vp_TargetEvent.3.cs
+    │   vp_TargetEvent.4.cs
+    │   vp_TargetEvent.cs
+    │   vp_TargetEventHandler.cs
+    │   vp_TargetEventOptions.cs
+    │   vp_TargetEventReturn.2.cs
+    │   vp_TargetEventReturn.3.cs
+    │   vp_TargetEventReturn.4.cs
+    │   vp_TargetEventReturn.cs
+    │   vp_Timer.cs
+    │   vp_TimeUtility.cs
+    │   vp_UnitBankInstance.cs
+    │   vp_UnitBankType.cs
+    │   vp_UnitType.cs
+    │   vp_Utility.cs
+    │   vp_Value.cs
+    │   vp_WaypointGizmo.cs
+    │   vp_Weapon.cs
+    │   vp_WeaponHandler.cs
+    │   vp_WeaponPickup.cs
+    │   vp_WeaponReloader.cs
+    │   vp_WeaponShooter.cs
+    │   vp_WeaponThrower.cs
+    │   WallVolume.cs
+    │   WasAlive.cs
+    │   WaterClippingUtils.cs
+    │   WaterClippingVolume.cs
+    │   WaterConstants.cs
+    │   WaterDataHandle.cs
+    │   WaterDebug.cs
+    │   WaterDebugAssets.cs
+    │   WaterDebugManager.cs
+    │   WaterDebugPools.cs
+    │   WaterDebugRenderer.cs
+    │   WaterDebugRendererLayer.cs
+    │   WaterEvaporationManager.cs
+    │   WaterFlow.cs
+    │   WaterInfo.cs
+    │   WaterMeshUtils.cs
+    │   WaterNeighborCacheNative.cs
+    │   WaterSimulationApplyChanges.cs
+    │   WaterSimulationApplyFlows.cs
+    │   WaterSimulationCalcFlows.cs
+    │   WaterSimulationNative.cs
+    │   WaterSimulationPostProcess.cs
+    │   WaterSimulationPreProcess.cs
+    │   WaterSourceInfo.cs
+    │   WaterSplashCubes.cs
+    │   WaterStats.cs
+    │   WaterStatsProfiler.cs
+    │   WaterUtils.cs
+    │   WaterValue.cs
+    │   WaterVoxelState.cs
+    │   WaterVoxelUpdate.cs
+    │   water_reflectionMirror.cs
+    │   WaveCleanUp.cs
+    │   WaveReader.cs
+    │   Waypoint.cs
+    │   WaypointCollection.cs
+    │   WeatherManager.cs
+    │   WeatherPackage.cs
+    │   WeatherParams.cs
+    │   WeatherSurvivalParametersFromXml.cs
+    │   WindowAutoYaw.cs
+    │   WindowDragTilt.cs
+    │   WinFormConnection.cs
+    │   WinFormConnection.Designer.cs
+    │   WinFormInstance.cs
+    │   WireFrameSphere.cs
+    │   WireManager.cs
+    │   WireNode.cs
+    │   WorkBatch.cs
+    │   WorkstationData.cs
+    │   World.cs
+    │   WorldBase.cs
+    │   WorldBiomeProviderFromHeight.cs
+    │   WorldBiomeProviderFromImage.cs
+    │   WorldBiomes.cs
+    │   WorldBlockFiller.cs
+    │   WorldBlockTicker.cs
+    │   WorldBlockTickerEntry.cs
+    │   WorldChunkCache.cs
+    │   WorldConstants.cs
+    │   WorldCreationData.cs
+    │   WorldDecoratorBlocksFromBiome.cs
+    │   WorldDecoratorPOIFromImage.cs
+    │   WorldEnvironment.cs
+    │   WorldGlobalFromXml.cs
+    │   WorldGridCompressedData.cs
+    │   WorldPreviewTerrain.cs
+    │   WorldRayHitInfo.cs
+    │   WorldRefMono.cs
+    │   WorldState.cs
+    │   WorldStaticData.cs
+    │   WorldStats.cs
+    │   WornItemMods.cs
+    │   WornItems.cs
+    │   XmlExtensions.cs
+    │   XmlFile.cs
+    │   XmlLoadException.cs
+    │   XmlPatchConditionEvaluator.cs
+    │   XmlPatcher.cs
+    │   XmlPatchException.cs
+    │   XmlPatchMethodAttribute.cs
+    │   XmlPatchMethods.cs
+    │   XmlPatchMethodsClassAttribute.cs
+    │   XNames.cs
+    │   XUi.cs
+    │   XuiBindComponentAttribute.cs
+    │   XuiBindEventAttribute.cs
+    │   XuiBindingDelegate.cs
+    │   XUiBindingHelper.cs
+    │   XuiBindingNcalcFunctionAttribute.cs
+    │   XuiBindParentAttribute.cs
+    │   XUiController.cs
+    │   XUiControllerComparerDepth.cs
+    │   XUiC_ActiveBuffEntry.cs
+    │   XUiC_ActiveBuffList.cs
+    │   XUiC_AddWarpSettings.cs
+    │   XUiC_AdvancedColorPicker.cs
+    │   XUiC_ArcWarpSettings.cs
+    │   XUiC_AssembleDroneWindow.cs
+    │   XUiC_AssembleWindow.cs
+    │   XUiC_AssembleWindowGroup.cs
+    │   XUiC_Backpack.cs
+    │   XUiC_BackpackWindow.cs
+    │   XUiC_BagContainer.cs
+    │   XUiC_BagStorageWindowGroup.cs
+    │   XUiC_BasePartStack.cs
+    │   XUiC_BlockedPlayersList.cs
+    │   XUiC_BuffInfoWindow.cs
+    │   XUiC_BuffPopoutList.cs
+    │   XUiC_BugReportSaveSelect.cs
+    │   XUiC_BugReportSavesList.cs
+    │   XUiC_BugReportWindow.cs
+    │   XUiC_BulgeWarpSettings.cs
+    │   XUiC_Button.cs
+    │   XUiC_ButtonSelectable.cs
+    │   XUiC_CameraWindow.cs
+    │   XUiC_CamPositionAdd.cs
+    │   XUiC_CamPositionsList.cs
+    │   XUiC_CaptionedTextBox.cs
+    │   XUiC_CategoryEntry.cs
+    │   XUiC_CategoryList.cs
+    │   XUiC_ChallengeEntry.cs
+    │   XUiC_ChallengeEntryDescriptionWindow.cs
+    │   XUiC_ChallengeEntryList.cs
+    │   XUiC_ChallengeEntryListWindow.cs
+    │   XUiC_ChallengeGroupEntry.cs
+    │   XUiC_ChallengeGroupList.cs
+    │   XUiC_ChallengeWindowGroup.cs
+    │   XUiC_CharacterCosmeticEntry.cs
+    │   XUiC_CharacterCosmeticList.cs
+    │   XUiC_CharacterCosmeticsListWindow.cs
+    │   XUiC_CharacterCosmeticWindow.cs
+    │   XUiC_CharacterCosmeticWindowGroup.cs
+    │   XUiC_CharacterFrameWindow.cs
+    │   XUiC_CharacterSheetWindowGroup.cs
+    │   XUiC_Chat.cs
+    │   XUiC_ChatOutput.cs
+    │   XUiC_CollectedItem.cs
+    │   XUiC_CollectedItemList.cs
+    │   XUiC_CollectorFuelGrid.cs
+    │   XUiC_CollectorFuelWindow.cs
+    │   XUiC_ColorPicker.cs
+    │   XUiC_CombineGrid.cs
+    │   XUiC_CombineWindowGroup.cs
+    │   XUiC_ComboBox.cs
+    │   XUiC_ComboBoxBase.cs
+    │   XUiC_ComboBoxBool.cs
+    │   XUiC_ComboBoxEnum.cs
+    │   XUiC_ComboBoxFloat.cs
+    │   XUiC_ComboBoxInt.cs
+    │   XUiC_ComboBoxList.cs
+    │   XUiC_ComboBoxOrdinal.cs
+    │   XUiC_CompanionEntry.cs
+    │   XUiC_CompanionEntryList.cs
+    │   XUiC_CompassWindow.cs
+    │   XUiC_ConfirmationPrompt.cs
+    │   XUiC_ContainerStandardControls.cs
+    │   XUiC_ContinueGame.cs
+    │   XUiC_Counter.cs
+    │   XUiC_CraftingInfoWindow.cs
+    │   XUiC_CraftingListInfo.cs
+    │   XUiC_CraftingQueue.cs
+    │   XUiC_CraftingToolWindow.cs
+    │   XUiC_CraftingWindowGroup.cs
+    │   XUiC_CreatePoi.cs
+    │   XUiC_Creative2Stack.cs
+    │   XUiC_Creative2StackGrid.cs
+    │   XUiC_Creative2Window.cs
+    │   XUiC_Creative2WindowGroup.cs
+    │   XUiC_Credits.cs
+    │   XUiC_CustomCharacterWindowGroup.cs
+    │   XUiC_DataManagement.cs
+    │   XUiC_DataManagementBar.cs
+    │   XUiC_DeathBar.cs
+    │   XUiC_DemoWindow.cs
+    │   XUiC_DewCollectorContainer.cs
+    │   XUiC_DewCollectorModGrid.cs
+    │   XUiC_DewCollectorStack.cs
+    │   XUiC_DewCollectorWindow.cs
+    │   XUiC_DewCollectorWindowGroup.cs
+    │   XUiC_DialogRespondentName.cs
+    │   XUiC_DialogResponseEntry.cs
+    │   XUiC_DialogResponseList.cs
+    │   XUiC_DialogStatementWindow.cs
+    │   XUiC_DialogWindowGroup.cs
+    │   XUiC_DiscordBlockedUsers.cs
+    │   XUiC_DiscordBlockedUsersList.cs
+    │   XUiC_DiscordFriendsList.cs
+    │   XUiC_DiscordInfo.cs
+    │   XUiC_DiscordLobbyControl.cs
+    │   XUiC_DiscordLobbyMemberList.cs
+    │   XUiC_DiscordLogin.cs
+    │   XUiC_DiscordMainMenuButton.cs
+    │   XUiC_DiscordMainMenuFriends.cs
+    │   XUiC_DiscordPendingList.cs
+    │   XUiC_DiscordVoiceControls.cs
+    │   XUiC_DiscordWindow.cs
+    │   XUiC_DlcList.cs
+    │   XUiC_DlcWindow.cs
+    │   XUiC_DlcWindowNew.cs
+    │   XUiC_DMBaseList.cs
+    │   XUiC_DMPlayersList.cs
+    │   XUiC_DMSavegamesList.cs
+    │   XUiC_DMWorldList.cs
+    │   XUiC_DragAndDropWindow.cs
+    │   XUiC_DroneWindowGroup.cs
+    │   XUiC_DropDown.cs
+    │   XUiC_EditingTools.cs
+    │   XUiC_EditingToolsDialogBase.cs
+    │   XUiC_EditingToolsPoiEditor.cs
+    │   XUiC_EditorPanelSelector.cs
+    │   XUiC_EditorStat.cs
+    │   XUiC_EmptyInfoWindow.cs
+    │   XUiC_EnteringArea.cs
+    │   XUiC_EquipmentStack.cs
+    │   XUiC_EquipmentStackGrid.cs
+    │   XUiC_EulaWindow.cs
+    │   XUiC_ExitingGame.cs
+    │   XUiC_ExportPrefab.cs
+    │   XUiC_FocusedBlockHealth.cs
+    │   XUiC_FullScreenCollider.cs
+    │   XUiC_GameEventMenu.cs
+    │   XUiC_GameEventsList.cs
+    │   XUiC_GamepadCalloutWindow.cs
+    │   XUiC_GamePrefSelector.cs
+    │   XUiC_GridWarpSettings.cs
+    │   XUiC_HUDStatBar.cs
+    │   XUiC_InfoWindow.cs
+    │   XUiC_InGameDebugMenu.cs
+    │   XUiC_InGameHUD.cs
+    │   XUiC_InGameMenuWindow.cs
+    │   XUiC_InGameTimeControls.cs
+    │   XUiC_IngredientEntry.cs
+    │   XUiC_IngredientList.cs
+    │   XUiC_InteractionPrompt.cs
+    │   XUiC_ItemActionEntry.cs
+    │   XUiC_ItemActionList.cs
+    │   XUiC_ItemCosmeticStack.cs
+    │   XUiC_ItemCosmeticStackGrid.cs
+    │   XUiC_ItemDronePartStack.cs
+    │   XUiC_ItemDronePartStackGrid.cs
+    │   XUiC_ItemInfoWindow.cs
+    │   XUiC_ItemPartStack.cs
+    │   XUiC_ItemPartStackGrid.cs
+    │   XUiC_ItemStack.cs
+    │   XUiC_ItemStackGrid.cs
+    │   XUiC_ItemStackSlot.cs
+    │   XUiC_ItemStackSlotGrid.cs
+    │   XUiC_KaleidoWarpSettings.cs
+    │   XUiC_KeypadWindow.cs
+    │   XUiC_LevelTools3Window.cs
+    │   XUiC_LevelToolsGenericWindow.cs
+    │   XUiC_LevelToolsHelpers.cs
+    │   XUiC_LightEditor.cs
+    │   XUiC_List.cs
+    │   XUiC_LoadingScreen.cs
+    │   XUiC_Location.cs
+    │   XUiC_LoginBase.cs
+    │   XUiC_LoginPS5.cs
+    │   XUiC_LootContainer.cs
+    │   XUiC_LootWindow.cs
+    │   XUiC_LootWindowGroup.cs
+    │   XUiC_MainMenu.cs
+    │   XUiC_MainMenuButtons.cs
+    │   XUiC_MainMenuPlayerName.cs
+    │   XUiC_MapArea.cs
+    │   XUiC_MapEnterWaypoint.cs
+    │   XUiC_MapInvitesList.cs
+    │   XUiC_MapInvitesListEntry.cs
+    │   XUiC_MapPopupEntry.cs
+    │   XUiC_MapPopupList.cs
+    │   XUiC_MapStats.cs
+    │   XUiC_MapSubPopupEntry.cs
+    │   XUiC_MapSubPopupList.cs
+    │   XUiC_MapWaypoint.cs
+    │   XUiC_MapWaypointList.cs
+    │   XUiC_MapWaypointListEntry.cs
+    │   XUiC_MaterialInfoWindow.cs
+    │   XUiC_MaterialStack.cs
+    │   XUiC_MaterialStackGrid.cs
+    │   XUiC_MaterialWindow.cs
+    │   XUiC_MessageBoxWindowGroup.cs
+    │   XUiC_MultiplayerPrivilegeNotification.cs
+    │   XUiC_MultiplayerWindows.cs
+    │   XUiC_NewContinueBase.cs
+    │   XUiC_NewContinueGameSettings.cs
+    │   XUiC_NewGame.cs
+    │   XUiC_NewsScreen.cs
+    │   XUiC_NewsWindow.cs
+    │   XUiC_OnScreenIcons.cs
+    │   XUiC_OptionEntryAbs.cs
+    │   XUiC_OptionEntryComboAbs.cs
+    │   XUiC_OptionEntryCustom.cs
+    │   XUiC_OptionEntryGamePrefAbs.cs
+    │   XUiC_OptionEntryGamePrefBool.cs
+    │   XUiC_OptionEntryGamePrefFloat.cs
+    │   XUiC_OptionEntryGamePrefInt.cs
+    │   XUiC_OptionEntryGamePrefIntIndex.cs
+    │   XUiC_OptionEntryLegacy.cs
+    │   XUiC_OptionsAudio.cs
+    │   XUiC_OptionsBlockedPlayersList.cs
+    │   XUiC_OptionsController.cs
+    │   XUiC_OptionsControls.cs
+    │   XUiC_OptionsControlsBase.cs
+    │   XUiC_OptionsControlsNewBinding.cs
+    │   XUiC_OptionsDialogBase.cs
+    │   XUiC_OptionsGeneral.cs
+    │   XUiC_OptionsMenuNew.cs
+    │   XUiC_OptionsSelector.cs
+    │   XUiC_OptionsTwitch.cs
+    │   XUiC_OptionsUsername.cs
+    │   XUiC_OptionsVideo.cs
+    │   XUiC_OptionsVideoBase.cs
+    │   XUiC_OptionsVideoSimplified.cs
+    │   XUiC_Paging.cs
+    │   XUiC_PartList.cs
+    │   XUiC_PartyEntry.cs
+    │   XUiC_PartyEntryList.cs
+    │   XUiC_PartyWindow.cs
+    │   XUiC_PerspectiveWarpSettings.cs
+    │   XUiC_PlayerName.cs
+    │   XUiC_PlayerProfile.cs
+    │   XUiC_PlayerProfileCreate.cs
+    │   XUiC_PlayersBlockedListEntry.cs
+    │   XUiC_PlayersBlockedListEntryBase.cs
+    │   XUiC_PlayersList.cs
+    │   XUiC_PlayersListEntry.cs
+    │   XUiC_PlayersRecentListEntry.cs
+    │   XUiC_PlayGameDialogBase.cs
+    │   XUiC_PlayGameMenu.cs
+    │   XUiC_PoiList.cs
+    │   XUiC_PoiTeleportMenu.cs
+    │   XUiC_PopupMenu.cs
+    │   XUiC_PopupMenuItem.cs
+    │   XUiC_PopupToolTip.cs
+    │   XUiC_PowerCameraWindowGroup.cs
+    │   XUiC_PoweredGenericWindowGroup.cs
+    │   XUiC_PoweredSpotlightWindowGroup.cs
+    │   XUiC_PowerRangedAmmoSlots.cs
+    │   XUiC_PowerRangedTrapOptions.cs
+    │   XUiC_PowerRangedTrapWindowGroup.cs
+    │   XUiC_PowerSourceSlots.cs
+    │   XUiC_PowerSourceStats.cs
+    │   XUiC_PowerSourceWindowGroup.cs
+    │   XUiC_PowerTriggerOptions.cs
+    │   XUiC_PowerTriggerWindowGroup.cs
+    │   XUiC_PrefabEditorHelp.cs
+    │   XUiC_PrefabFeatureEditorList.cs
+    │   XUiC_PrefabFileList.cs
+    │   XUiC_PrefabFolderList.cs
+    │   XUiC_PrefabGroupList.cs
+    │   XUiC_PrefabGroupsEditorList.cs
+    │   XUiC_PrefabList.cs
+    │   XUiC_PrefabMarkerList.cs
+    │   XUiC_PrefabPropertiesEditor.cs
+    │   XUiC_PrefabQuestTags.cs
+    │   XUiC_PrefabTagList.cs
+    │   XUiC_PrefabThemeTagList.cs
+    │   XUiC_PrefabTriggerEditorList.cs
+    │   XUiC_PrefabZonesEditorList.cs
+    │   XUiC_ProfilesList.cs
+    │   XUiC_ProgressWindow.cs
+    │   XUiC_QuestDescriptionWindow.cs
+    │   XUiC_QuestEntry.cs
+    │   XUiC_QuestList.cs
+    │   XUiC_QuestListWindow.cs
+    │   XUiC_QuestObjectiveEntry.cs
+    │   XUiC_QuestObjectiveList.cs
+    │   XUiC_QuestObjectivesWindow.cs
+    │   XUiC_QuestOfferWindow.cs
+    │   XUiC_QuestRewardEntry.cs
+    │   XUiC_QuestRewardList.cs
+    │   XUiC_QuestRewardsWindow.cs
+    │   XUiC_QuestSharedEntry.cs
+    │   XUiC_QuestSharedList.cs
+    │   XUiC_QuestSharedListWindow.cs
+    │   XUiC_QuestTrackerObjectiveEntry.cs
+    │   XUiC_QuestTrackerObjectiveList.cs
+    │   XUiC_QuestTrackerWindow.cs
+    │   XUiC_QuestTurnInDetailsWindow.cs
+    │   XUiC_QuestTurnInEntry.cs
+    │   XUiC_QuestTurnInRewardsWindow.cs
+    │   XUiC_QuestTurnInWindowGroup.cs
+    │   XUiC_QuestWindowGroup.cs
+    │   XUiC_Radial.cs
+    │   XUiC_RadialEntry.cs
+    │   XUiC_RecipeCraftCount.cs
+    │   XUiC_RecipeEntry.cs
+    │   XUiC_RecipeList.cs
+    │   XUiC_RecipeStack.cs
+    │   XUiC_RecipeTrackerIngredientEntry.cs
+    │   XUiC_RecipeTrackerIngredientsList.cs
+    │   XUiC_RecipeTrackerWindow.cs
+    │   XUiC_ReportPlayer.cs
+    │   XUiC_RequiredItemStack.cs
+    │   XUiC_RWGLSystem.cs
+    │   XUiC_SandBoxOptionEntry.cs
+    │   XUiC_SandboxOptions.cs
+    │   XUiC_SandboxPresetSelector.cs
+    │   XUiC_SandboxSettingsDisplay.cs
+    │   XUiC_SandboxSettingsSaveAsPreset.cs
+    │   XUiC_SaveDirtyPrefab.cs
+    │   XUiC_SavegamesList.cs
+    │   XUiC_SaveIndicator.cs
+    │   XUiC_SaveManagementPrompt.cs
+    │   XUiC_SaveSpaceNeeded.cs
+    │   XUiC_SDCSPreviewWindow.cs
+    │   XUiC_SelectableEntry.cs
+    │   XUiC_ServerBrowser.cs
+    │   XUiC_ServerBrowserDirectConnect.cs
+    │   XUiC_ServerBrowserGameOptionInputAdvanced.cs
+    │   XUiC_ServerBrowserGameOptionInputRange.cs
+    │   XUiC_ServerBrowserGameOptionInputSimple.cs
+    │   XUiC_ServerBrowserGamePrefInfo.cs
+    │   XUiC_ServerBrowserGamePrefSelector.cs
+    │   XUiC_ServerBrowserGamePrefSelectorCombo.cs
+    │   XUiC_ServerBrowserGamePrefSelectorComboSandboxOption.cs
+    │   XUiC_ServerBrowserGamePrefString.cs
+    │   XUiC_ServerFilters.cs
+    │   XUiC_ServerInfo.cs
+    │   XUiC_ServerJoinRulesDialog.cs
+    │   XUiC_ServerPasswordWindow.cs
+    │   XUiC_ServersList.cs
+    │   XUiC_ServiceInfoWindow.cs
+    │   XUiC_ShapeInfoWindow.cs
+    │   XUiC_ShapeMaterialInfoWindow.cs
+    │   XUiC_ShapeStack.cs
+    │   XUiC_ShapeStackGrid.cs
+    │   XUiC_ShapesWindow.cs
+    │   XUiC_SignColorSettings.cs
+    │   XUiC_SignDebugPanel.cs
+    │   XUiC_SignEditorControl.cs
+    │   XUiC_SignEditorWindow.cs
+    │   XUiC_SignGalleryWindow.cs
+    │   XUiC_SignGridEntry.cs
+    │   XUiC_SignGroupSettings.cs
+    │   XUiC_SignInfoWindow.cs
+    │   XUiC_SignInstanceWindow.cs
+    │   XUiC_SignLayer.cs
+    │   XUiC_SignLayerDragAndDropIcon.cs
+    │   XUiC_SignLayerGrid.cs
+    │   XUiC_SignLayerSettings.cs
+    │   XUiC_SignLayerType.cs
+    │   XUiC_SignNewLayerPanel.cs
+    │   XUiC_SignNoiseSettings.cs
+    │   XUiC_SignPolygonSettings.cs
+    │   XUiC_SignStack.cs
+    │   XUiC_SignStackGrid.cs
+    │   XUiC_SignTextSettings.cs
+    │   XUiC_SignTransformSettings.cs
+    │   XUiC_SignWarpSettings.cs
+    │   XUiC_SignWindow.cs
+    │   XUiC_SimpleButton.cs
+    │   XUiC_SizeBar.cs
+    │   XUiC_SkewWarpSettings.cs
+    │   XUiC_SkillAttributeInfoWindow.cs
+    │   XUiC_SkillAttributeLevel.cs
+    │   XUiC_SkillBookInfoWindow.cs
+    │   XUiC_SkillBookLevel.cs
+    │   XUiC_SkillCraftingInfoEntry.cs
+    │   XUiC_SkillCraftingInfoWindow.cs
+    │   XUiC_SkillEntry.cs
+    │   XUiC_SkillList.cs
+    │   XUiC_SkillListWindow.cs
+    │   XUiC_SkillPerkInfoWindow.cs
+    │   XUiC_SkillPerkLevel.cs
+    │   XUiC_SkillSkillInfoWindow.cs
+    │   XUiC_SkillSkillMilestone.cs
+    │   XUiC_SkillWindowGroup.cs
+    │   XUiC_SlotPreview.cs
+    │   XUiC_SpawnBlockEditor.cs
+    │   XUiC_SpawnEntitiesList.cs
+    │   XUiC_SpawnersList.cs
+    │   XUiC_SpawnMenu.cs
+    │   XUiC_SpawnNearFriendsList.cs
+    │   XUiC_SpawnSelectionWindow.cs
+    │   XUiC_StartPointEditor.cs
+    │   XUiC_StretchWarpSettings.cs
+    │   XUiC_StringList.cs
+    │   XUiC_SubtitlesDisplay.cs
+    │   XUiC_TabSelector.cs
+    │   XUiC_TabSelectorButton.cs
+    │   XUiC_TabSelectorTab.cs
+    │   XUiC_TargetBar.cs
+    │   XUiC_TextInput.cs
+    │   XUiC_ThrowPower.cs
+    │   XUiC_Timer.cs
+    │   XUiC_TipWindow.cs
+    │   XUiC_ToggleButton.cs
+    │   XUiC_Toolbelt.cs
+    │   XUiC_ToolbeltWindow.cs
+    │   XUiC_ToolTip.cs
+    │   XUiC_TraderItemEntry.cs
+    │   XUiC_TraderItemList.cs
+    │   XUiC_TraderWindow.cs
+    │   XUiC_TraderWindowGroup.cs
+    │   XUiC_TriggerProperties.cs
+    │   XUiC_TwirlWarpSettings.cs
+    │   XUiC_TwitchActionEntry.cs
+    │   XUiC_TwitchActionEntryList.cs
+    │   XUiC_TwitchActionHistoryEntry.cs
+    │   XUiC_TwitchActionHistoryEntryList.cs
+    │   XUiC_TwitchCommandEntry.cs
+    │   XUiC_TwitchCommandList.cs
+    │   XUiC_TwitchEntryDescriptionWindow.cs
+    │   XUiC_TwitchEntryListWindow.cs
+    │   XUiC_TwitchHowToWindow.cs
+    │   XUiC_TwitchInfoWindowGroup.cs
+    │   XUiC_TwitchLeaderboardEntry.cs
+    │   XUiC_TwitchLeaderboardEntryList.cs
+    │   XUiC_TwitchVoteEntry.cs
+    │   XUiC_TwitchVoteInfoEntry.cs
+    │   XUiC_TwitchVoteInfoEntryList.cs
+    │   XUiC_TwitchVoteList.cs
+    │   XUiC_TwitchWindow.cs
+    │   XUiC_TwitchWindowSelector.cs
+    │   XUiC_UiLimitsWindow.cs
+    │   XUiC_UnlockByEntry.cs
+    │   XUiC_UnlockByList.cs
+    │   XUiC_VariableHeightGrid.cs
+    │   XUiC_VehicleFrameWindow.cs
+    │   XUiC_VehiclePartStack.cs
+    │   XUiC_VehiclePartStackGrid.cs
+    │   XUiC_VehicleStats.cs
+    │   XUiC_VehicleWindowGroup.cs
+    │   XUiC_VideoPlayer.cs
+    │   XUiC_WindowNonPagingHeader.cs
+    │   XUiC_WindowSelector.cs
+    │   XUiC_WoPropsPOIMarker.cs
+    │   XUiC_WoPropsSleeperVolume.cs
+    │   XUiC_WorkstationFuelGrid.cs
+    │   XUiC_WorkstationGrid.cs
+    │   XUiC_WorkstationInputGrid.cs
+    │   XUiC_WorkstationMaterialInputGrid.cs
+    │   XUiC_WorkstationMaterialInputWindow.cs
+    │   XUiC_WorkstationOutputGrid.cs
+    │   XUiC_WorkstationOutputWindow.cs
+    │   XUiC_WorkstationToolGrid.cs
+    │   XUiC_WorkstationWindowGroup.cs
+    │   XUiC_WorldEditor.cs
+    │   XUiC_WorldEditorCreateWorld.cs
+    │   XUiC_WorldGenerationPreview.cs
+    │   XUiC_WorldGenerationWindow.cs
+    │   XUiC_WorldGenerationWindowGroup.cs
+    │   XUiC_WorldList.cs
+    │   XUiC_WorldSelectionList.cs
+    │   XUiC_WorldSelectionPopup.cs
+    │   XUiC_WorldToolsWindow.cs
+    │   XUiEvent_BackpackItemsChanged.cs
+    │   XUiEvent_BackpackItemsChangedInternal.cs
+    │   XUiEvent_CategoryChangedEventHandler.cs
+    │   XUiEvent_CurrencyChanged.cs
+    │   XUiEvent_EquipmentSlotChanged.cs
+    │   XUiEvent_FuelStackChanged.cs
+    │   XUiEvent_InputOnAbortedEventHandler.cs
+    │   XUiEvent_InputOnChangedEventHandler.cs
+    │   XUiEvent_InputOnErrorEventHandler.cs
+    │   XUiEvent_InputOnSelectedEventHandler.cs
+    │   XUiEvent_InputOnSubmitEventHandler.cs
+    │   XUiEvent_InputStackChanged.cs
+    │   XUiEvent_ListEntryClickedEventHandler.cs
+    │   XUiEvent_ListEntryDoubleClickedEventHandler.cs
+    │   XUiEvent_ListEntryHoveredEventHandler.cs
+    │   XUiEvent_ListPageNumberChangedEventHandler.cs
+    │   XUiEvent_ListSelectionChangedEventHandler.cs
+    │   XUiEvent_LockChangeEventHandler.cs
+    │   XUiEvent_OnCountChanged.cs
+    │   XUiEvent_OnDragEventHandler.cs
+    │   XUiEvent_OnEnabledChanged.cs
+    │   XUiEvent_OnHeldHandler.cs
+    │   XUiEvent_OnHoverEventHandler.cs
+    │   XUiEvent_OnInteraction.cs
+    │   XUiEvent_OnMouseUpDownEventHandler.cs
+    │   XUiEvent_OnOptionSelectionChanged.cs
+    │   XUiEvent_OnPressEventHandler.cs
+    │   XUiEvent_OnScrollEventHandler.cs
+    │   XUiEvent_OnSelectEventHandler.cs
+    │   XUiEvent_OnVisibilityChanged.cs
+    │   XUiEvent_PageChangedEventHandler.cs
+    │   XUiEvent_PageContentsChangedEventHandler.cs
+    │   XUiEvent_PageNumberChangedEventHandler.cs
+    │   XUiEvent_RecipeChangedEventHandler.cs
+    │   XUiEvent_RefreshEquipment.cs
+    │   XUiEvent_RequiredSlotFailedSwapEventHandler.cs
+    │   XUiEvent_SelectedColorChanged.cs
+    │   XUiEvent_SlotChangedEventHandler.cs
+    │   XUiEvent_TileEntityDestroyed.cs
+    │   XUiEvent_TimeIntervalElapsedEventHandler.cs
+    │   XUiEvent_ToggleButtonValueChanged.cs
+    │   XUiEvent_ToolbeltItemsChanged.cs
+    │   XUiEvent_ToolbeltItemsChangedInternal.cs
+    │   XUiEvent_ToolLockChangeEventHandler.cs
+    │   XUiEvent_TrackedQuestChanged.cs
+    │   XuiEvent_WorkstationItemsChanged.cs
+    │   XUiFromXml.cs
+    │   XUiListEntry.cs
+    │   XUiModel.cs
+    │   XUiM_AssembleItem.cs
+    │   XUiM_Dialog.cs
+    │   XUiM_InGameService.cs
+    │   XUiM_ItemStack.cs
+    │   XUiM_LootContainer.cs
+    │   XUiM_Player.cs
+    │   XUiM_PlayerBuffs.cs
+    │   XUiM_PlayerDefense.cs
+    │   XUiM_PlayerEquipment.cs
+    │   XUiM_PlayerInventory.cs
+    │   XUiM_Quest.cs
+    │   XUiM_Recipes.cs
+    │   XUiM_Trader.cs
+    │   XUiM_Vehicle.cs
+    │   XUiM_Workstation.cs
+    │   XuiParsingConverterFromStringDelegate.cs
+    │   XuiParsingConverterTypeToTypeDelegate.cs
+    │   XuiParsingDelegate.cs
+    │   XUiSideSizes.cs
+    │   XUiTweenAbs.cs
+    │   XUiTweenAlpha.cs
+    │   XUiTweenColor.cs
+    │   XUiTweenFill.cs
+    │   XUiTweenHeight.cs
+    │   XUiTweenPosition.cs
+    │   XUiTweenRotation.cs
+    │   XUiTweenScale.cs
+    │   XUiTweenWidth.cs
+    │   XUiUpdateHelper.cs
+    │   XUiUpdater.cs
+    │   XUiUtils.cs
+    │   XUiView.cs
+    │   XUiView_WidgetBased.cs
+    │   XUiV_Button.cs
+    │   XUiV_Empty.cs
+    │   XUiV_FilledSprite.cs
+    │   XUiV_GamepadIcon.cs
+    │   XUiV_Grid.cs
+    │   XUiV_ImageBased.cs
+    │   XUiV_Label.cs
+    │   XUiV_LabelBase.cs
+    │   XUiV_Panel.cs
+    │   XUiV_Rect.cs
+    │   XUiV_ScrollBar.cs
+    │   XUiV_ScrollView.cs
+    │   XUiV_Sprite.cs
+    │   XUiV_Table.cs
+    │   XUiV_TextList.cs
+    │   XUiV_Texture.cs
+    │   XUiV_TextureBased.cs
+    │   XUiV_Video.cs
+    │   XUiV_Window.cs
+    │   XUiWindowGroup.cs
+    │   XuiXmlAttributeAttribute.cs
+    │   XuiXmlAttributeConverterAttribute.cs
+    │   XuiXmlAttributeConvertersClassAttribute.cs
+    │   XuiXmlBindingAttribute.cs
+    │   XUi_FallThrough.cs
+    │   ZipFileExtensionsSd.cs
+    │   __JobReflectionRegistrationOutput__2539302986.cs
+    │
+    ├───Assets
+    │   └───DuckType
+    │       └───Jiggle
+    │               Extensions.cs
+    │               Jiggle.cs
+    │               JiggleScheduler.cs
+    │               ProceduralAnimation.cs
+    │
+    ├───Audio
+    │       Client.cs
+    │       ClipSourceMap.cs
+    │       Handle.cs
+    │       LoopingPair.cs
+    │       Manager.cs
+    │       NetPackageAudio.cs
+    │       NoiseData.cs
+    │       PlayAndCleanup.cs
+    │       Server.cs
+    │       SourceGameObjectPair.cs
+    │       StrAudioClip.cs
+    │       SubtitleData.cs
+    │       SubtitleSpeakerColor.cs
+    │       XmlData.cs
+    │
+    ├───Challenges
+    │       BaseChallengeObjective.cs
+    │       BaseRequirementObjectiveGroup.cs
+    │       Challenge.cs
+    │       ChallengeBaseTrackedItemObjective.cs
+    │       ChallengeCategory.cs
+    │       ChallengeClass.cs
+    │       ChallengeGroup.cs
+    │       ChallengeGroupEntry.cs
+    │       ChallengeObjectiveBlockPlace.cs
+    │       ChallengeObjectiveBlockUpgrade.cs
+    │       ChallengeObjectiveBloodmoon.cs
+    │       ChallengeObjectiveChallengeComplete.cs
+    │       ChallengeObjectiveChallengeStatAwarded.cs
+    │       ChallengeObjectiveCraft.cs
+    │       ChallengeObjectiveCureDebuff.cs
+    │       ChallengeObjectiveEnterBiome.cs
+    │       ChallengeObjectiveGather.cs
+    │       ChallengeObjectiveGatherByTag.cs
+    │       ChallengeObjectiveGatherIngredient.cs
+    │       ChallengeObjectiveHarvest.cs
+    │       ChallengeObjectiveHarvestByTag.cs
+    │       ChallengeObjectiveHold.cs
+    │       ChallengeObjectiveKill.cs
+    │       ChallengeObjectiveKillByTag.cs
+    │       ChallengeObjectiveLootContainer.cs
+    │       ChallengeObjectiveMeetTrader.cs
+    │       ChallengeObjectiveQuestComplete.cs
+    │       ChallengeObjectiveScrap.cs
+    │       ChallengeObjectiveSpendSkillPoint.cs
+    │       ChallengeObjectiveSurvive.cs
+    │       ChallengeObjectiveTime.cs
+    │       ChallengeObjectiveTrader.cs
+    │       ChallengeObjectiveTwitch.cs
+    │       ChallengeObjectiveType.cs
+    │       ChallengeObjectiveUseItem.cs
+    │       ChallengeObjectiveWear.cs
+    │       ChallengeObjectiveWindowOpen.cs
+    │       ChallengeStateChanged.cs
+    │       ChallengeTrackingHandler.cs
+    │       RequirementGroupPhase.cs
+    │       RequirementObjectiveGroupBlockUpgrade.cs
+    │       RequirementObjectiveGroupCraft.cs
+    │       RequirementObjectiveGroupGatherIngredients.cs
+    │       RequirementObjectiveGroupHold.cs
+    │       RequirementObjectiveGroupPlace.cs
+    │       RequirementObjectiveGroupWindowOpen.cs
+    │       TrackingEntry.cs
+    │       TwitchObjectiveTypes.cs
+    │
+    ├───ConcurrentCollections
+    │       ConcurrentHashSet.cs
+    │
+    ├───CoverClippingTool
+    │       ArrayValue.cs
+    │       BlockSettings.cs
+    │       BlockShapeInfo.cs
+    │       CoverMaskBlockPlacer.cs
+    │       DataSource.cs
+    │       PropertyValue.cs
+    │       Renderable.cs
+    │       SelectedBlockInfo.cs
+    │       ShapeData.cs
+    │       ShapeDataSet.cs
+    │       ShapeReference.cs
+    │
+    ├───DynamicMusic
+    │   │   AbstractConfiguration.cs
+    │   │   AbstractDayTimeTracker.cs
+    │   │   AbstractFilter.cs
+    │   │   AbstractMusicTimeTracker.cs
+    │   │   Adventure.cs
+    │   │   Bloodmoon.cs
+    │   │   BloodmoonClipSet.cs
+    │   │   BloodmoonConfiguration.cs
+    │   │   BloodmoonLayerMixer.cs
+    │   │   ClipAdapter.cs
+    │   │   ClipPairAdapter.cs
+    │   │   ClipSet.cs
+    │   │   Combat.cs
+    │   │   CombatLayerMixer.cs
+    │   │   Conductor.cs
+    │   │   Configuration.cs
+    │   │   Content.cs
+    │   │   ContentLoader.cs
+    │   │   ContentPlayer.cs
+    │   │   ContentQueue.cs
+    │   │   DayTimeTracker.cs
+    │   │   DynamicMusicSystemPassArbiter.cs
+    │   │   FixedConfiguration.cs
+    │   │   FixedConfigurationLayerData.cs
+    │   │   FixedLayerMixer.cs
+    │   │   FrequencyLimiter.cs
+    │   │   ICleanable.cs
+    │   │   IClipAdapter.cs
+    │   │   IConfigurable.cs
+    │   │   IConfiguration.2.cs
+    │   │   IConfiguration.cs
+    │   │   ICountable.cs
+    │   │   IFadeable.cs
+    │   │   IFilter.cs
+    │   │   IFiniteConfiguration.cs
+    │   │   IGuarantor.cs
+    │   │   ILayerable.cs
+    │   │   ILayerMixer.cs
+    │   │   IMultiNotifiableFilter.cs
+    │   │   INotifiable.2.cs
+    │   │   INotifiable.cs
+    │   │   INotifiableFilter.2.cs
+    │   │   INotifiableFilter.cs
+    │   │   INotifiableSelector.cs
+    │   │   IPassArbiter.cs
+    │   │   IPauseable.cs
+    │   │   IPlayable.cs
+    │   │   IPlayArbiter.cs
+    │   │   IResettable.cs
+    │   │   ISection.cs
+    │   │   ISectionLayer.cs
+    │   │   ISectionSelector.cs
+    │   │   ISelector.cs
+    │   │   IThreatLevel.cs
+    │   │   IThreatLevelTracker.cs
+    │   │   IUpdatable.cs
+    │   │   LayeredContent.cs
+    │   │   LayeredSection.cs
+    │   │   LayerMixer.cs
+    │   │   LayerParams.cs
+    │   │   LayerState.cs
+    │   │   MixerController.cs
+    │   │   MusicTimeTracker.cs
+    │   │   PlayerTracker.cs
+    │   │   Section.cs
+    │   │   SectionSelector.cs
+    │   │   SectionTest.cs
+    │   │   SingleClip.cs
+    │   │   SingleClipPlayer.cs
+    │   │   Song.cs
+    │   │   Theme.cs
+    │   │   ThreatLevel.cs
+    │   │   ThreatLevelUtility.cs
+    │   │   TrackerTests.cs
+    │   │
+    │   ├───Factories
+    │   │       Factory.cs
+    │   │
+    │   ├───Legacy
+    │   │   │   FrequencyManager.cs
+    │   │   │   LayerReserve.cs
+    │   │   │   LayerStreamer.cs
+    │   │   │   StreamerMaster.cs
+    │   │   │   ThreatLevelStreamer.cs
+    │   │   │   ThreatLevelTracker.cs
+    │   │   │   TransitionManager.cs
+    │   │   │
+    │   │   └───ObjectModel
+    │   │           ConfigSet.cs
+    │   │           InstrumentID.cs
+    │   │           Layer.cs
+    │   │           LayerConfig.cs
+    │   │           MusicGroup.cs
+    │   │           ThreatLevel.cs
+    │   │           ThreatLevelConfig.cs
+    │   │
+    │   └───Tests
+    │           ITester.cs
+    │
+    ├───GameEvent
+    │   ├───GameEventHelpers
+    │   │       HomerunData.cs
+    │   │       HomerunGoalController.cs
+    │   │       HomerunManager.cs
+    │   │
+    │   ├───SequenceActions
+    │   │       ActionAddAllPlayersToGroup.cs
+    │   │       ActionAddBuff.cs
+    │   │       ActionAddChatMessage.cs
+    │   │       ActionAddClosestEntityToGroup.cs
+    │   │       ActionAddEntitiesToGroup.cs
+    │   │       ActionAddItemDurability.cs
+    │   │       ActionAddItems.cs
+    │   │       ActionAddPartyToGroup.cs
+    │   │       ActionAddPlayerLevel.cs
+    │   │       ActionAddPlayerToGroup.cs
+    │   │       ActionAddQuest.cs
+    │   │       ActionAddRandomBuff.cs
+    │   │       ActionAddSkillPoints.cs
+    │   │       ActionAddSpawnedEntitiesToGroup.cs
+    │   │       ActionAddStartingItems.cs
+    │   │       ActionAddXP.cs
+    │   │       ActionAddXPDeficit.cs
+    │   │       ActionBaseBlockAction.cs
+    │   │       ActionBaseClientAction.cs
+    │   │       ActionBaseContainersAction.cs
+    │   │       ActionBaseItemAction.cs
+    │   │       ActionBaseSpawn.cs
+    │   │       ActionBaseTargetAction.cs
+    │   │       ActionBaseTeleport.cs
+    │   │       ActionBeltTooltip.cs
+    │   │       ActionBlockAnimateBlock.cs
+    │   │       ActionBlockDoorState.cs
+    │   │       ActionBlockDowngrade.cs
+    │   │       ActionBlockGameEvent.cs
+    │   │       ActionBlockGrowCrops.cs
+    │   │       ActionBlockHealth.cs
+    │   │       ActionBlockPickup.cs
+    │   │       ActionBlockReplace.cs
+    │   │       ActionBlockReplaceAttack.cs
+    │   │       ActionBlockTriggerFall.cs
+    │   │       ActionBlockTriggerMines.cs
+    │   │       ActionBlockUpgrade.cs
+    │   │       ActionCallGameEvent.cs
+    │   │       ActionClearGroup.cs
+    │   │       ActionCloseWindow.cs
+    │   │       ActionCompleteChallenge.cs
+    │   │       ActionDelay.cs
+    │   │       ActionDestroySafeZone.cs
+    │   │       ActionDropHeldItem.cs
+    │   │       ActionDropItems.cs
+    │   │       ActionEjectFromVehicle.cs
+    │   │       ActionEmptyContainers.cs
+    │   │       ActionEnemyToCrawler.cs
+    │   │       ActionExplodePosition.cs
+    │   │       ActionExplodeTarget.cs
+    │   │       ActionFailQuest.cs
+    │   │       ActionFillArea.cs
+    │   │       ActionFillSafeZone.cs
+    │   │       ActionFlipRotation.cs
+    │   │       ActionGetLandClaimPosition.cs
+    │   │       ActionGetNearbyPoint.cs
+    │   │       ActionKill.cs
+    │   │       ActionModifyCVar.cs
+    │   │       ActionModifyEntityStat.cs
+    │   │       ActionModifyProgression.cs
+    │   │       ActionModifyVarBool.cs
+    │   │       ActionModifyVarFloat.cs
+    │   │       ActionModifyVarInt.cs
+    │   │       ActionPauseBuff.cs
+    │   │       ActionPlaySound.cs
+    │   │       ActionPOIReset.cs
+    │   │       ActionPOISetLightState.cs
+    │   │       ActionPrimeEntity.cs
+    │   │       ActionPullEntities.cs
+    │   │       ActionPushEntity.cs
+    │   │       ActionRagdoll.cs
+    │   │       ActionRageZombies.cs
+    │   │       ActionRandomizeRotation.cs
+    │   │       ActionRandomTeleport.cs
+    │   │       ActionRemoveBuff.cs
+    │   │       ActionRemoveBuffsByTag.cs
+    │   │       ActionRemoveDeathBuffs.cs
+    │   │       ActionRemoveEntities.cs
+    │   │       ActionRemoveFuel.cs
+    │   │       ActionRemoveItems.cs
+    │   │       ActionRemoveSpawnedBlocks.cs
+    │   │       ActionRemoveVehicles.cs
+    │   │       ActionRenameSigns.cs
+    │   │       ActionReplaceBuff.cs
+    │   │       ActionReplaceEntities.cs
+    │   │       ActionReplaceItems.cs
+    │   │       ActionReplaceItemsContainers.cs
+    │   │       ActionResetMap.cs
+    │   │       ActionResetPlayerData.cs
+    │   │       ActionResetRegions.cs
+    │   │       ActionResetSleepers.cs
+    │   │       ActionRespawnEntities.cs
+    │   │       ActionRespawnEntity.cs
+    │   │       ActionSetDayTime.cs
+    │   │       ActionSetEventFlag.cs
+    │   │       ActionSetFuel.cs
+    │   │       ActionSetHordeNight.cs
+    │   │       ActionSetInvestigationPosition.cs
+    │   │       ActionSetItemSlots.cs
+    │   │       ActionSetScreenEffect.cs
+    │   │       ActionSetStorm.cs
+    │   │       ActionSetupBossGroup.cs
+    │   │       ActionSetWeather.cs
+    │   │       ActionShowMessageWindow.cs
+    │   │       ActionShowWindow.cs
+    │   │       ActionShuffleContainers.cs
+    │   │       ActionShuffleItems.cs
+    │   │       ActionSpawnContainer.cs
+    │   │       ActionSpawnEntity.cs
+    │   │       ActionSpawnEntitySpawner.cs
+    │   │       ActionStartHomerun.cs
+    │   │       ActionTeleport.cs
+    │   │       ActionTeleportNearby.cs
+    │   │       ActionTeleportToSpecial.cs
+    │   │       ActionTeleportToTarget.cs
+    │   │       ActionTimeChange.cs
+    │   │       ActionTwitchAddActionCooldown.cs
+    │   │       ActionTwitchAddEntitiesToSpawned.cs
+    │   │       ActionTwitchAddPoints.cs
+    │   │       ActionTwitchChallengeAction.cs
+    │   │       ActionTwitchEndCooldown.cs
+    │   │       ActionTwitchSendChannelMessage.cs
+    │   │       ActionTwitchStartCooldown.cs
+    │   │       ActionTwitchStartVote.cs
+    │   │       ActionTwitchVoteDelay.cs
+    │   │       ActionUnloadItems.cs
+    │   │       ActionUpdateBossGroup.cs
+    │   │       ActionWaitForDead.cs
+    │   │       BaseAction.cs
+    │   │       BaseWait.cs
+    │   │       WaitUntil.cs
+    │   │       WaitWhile.cs
+    │   │
+    │   ├───SequenceDecisions
+    │   │       BaseDecision.cs
+    │   │       DecisionIf.cs
+    │   │
+    │   ├───SequenceLoops
+    │   │       BaseLoop.cs
+    │   │       LoopFor.cs
+    │   │       LoopWhile.cs
+    │   │
+    │   └───SequenceRequirements
+    │           BaseOperationRequirement.cs
+    │           BaseRequirement.cs
+    │           RequirementCVar.cs
+    │           RequirementEventActive.cs
+    │           RequirementFullHealth.cs
+    │           RequirementGamestage.cs
+    │           RequirementGameStatBool.cs
+    │           RequirementGameStatFloat.cs
+    │           RequirementGameStatInt.cs
+    │           RequirementGroupLiveCount.cs
+    │           RequirementHasBuff.cs
+    │           RequirementHasBuffByTag.cs
+    │           RequirementHasEntityTag.cs
+    │           RequirementHasHeld.cs
+    │           RequirementHasParty.cs
+    │           RequirementHasSequenceLink.cs
+    │           RequirementHasSpawnedEntities.cs
+    │           RequirementInBiome.cs
+    │           RequirementInPOI.cs
+    │           RequirementInQuestZone.cs
+    │           RequirementInSafeZone.cs
+    │           RequirementInTraderArea.cs
+    │           RequirementInVehicle.cs
+    │           RequirementIsBlock.cs
+    │           RequirementIsHomerunActive.cs
+    │           RequirementIsIndoors.cs
+    │           RequirementIsTwitchActive.cs
+    │           RequirementIsWeatherGracePeriod.cs
+    │           RequirementNearbyEntities.cs
+    │           RequirementOnQuest.cs
+    │           RequirementProgression.cs
+    │           RequirementRandomRoll.cs
+    │           RequirementSandboxBool.cs
+    │           RequirementSandboxFloat.cs
+    │           RequirementSandboxInt.cs
+    │           RequirementVarBool.cs
+    │           RequirementVarFloat.cs
+    │           RequirementVarInt.cs
+    │           RequirementVarString.cs
+    │
+    ├───GamePath
+    │       ASPPathFinder.cs
+    │       ASPPathFinderThread.cs
+    │       ASPPathNavigate.cs
+    │       AStarPathFinderThread.cs
+    │       MultiTargetPathSelection.cs
+    │       PathEntity.cs
+    │       PathFinder.cs
+    │       PathFinderThread.cs
+    │       PathInfo.cs
+    │       PathInfoFleeRandom.cs
+    │       PathInfoFleeTarget.cs
+    │       PathInfoMultiSource.cs
+    │       PathInfoMultiTarget.cs
+    │       PathInfoSingleTarget.cs
+    │       PathNavigate.cs
+    │       PathPoint.cs
+    │       TraversalProvider.cs
+    │       TraversalProviderNoBreak.cs
+    │
+    ├───GearVariants
+    │       GearVariantMatrixSO.cs
+    │       SexGearTables.cs
+    │       StringTable2D.cs
+    │
+    ├───GUI_2
+    │       UIUtils.cs
+    │
+    ├───ICSharpCode
+    │   └───WpfDesign
+    │       └───XamlDom
+    │               PositionXmlAttribute.cs
+    │               PositionXmlCDataSection.cs
+    │               PositionXmlComment.cs
+    │               PositionXmlDeclaration.cs
+    │               PositionXmlDocument.cs
+    │               PositionXmlDocumentFragment.cs
+    │               PositionXmlDocumentType.cs
+    │               PositionXmlElement.cs
+    │               PositionXmlEntityReference.cs
+    │               PositionXmlImplementation.cs
+    │               PositionXmlProcessingInstruction.cs
+    │               PositionXmlSignificantWhitespace.cs
+    │               PositionXmlText.cs
+    │               PositionXmlWhitespace.cs
+    │
+    ├───JBooth
+    │   └───MicroSplat
+    │           CurvatureMapGenerator.cs
+    │           GlitterLight.cs
+    │           MicroSplatProceduralTextureUtil.cs
+    │           MicroSplatRuntimeUtil.cs
+    │           TextureArrayConfig.cs
+    │
+    ├───KinematicCharacterController
+    │       CharacterGroundingReport.cs
+    │       CharacterTransientGroundingReport.cs
+    │       HitStabilityReport.cs
+    │       ICharacterController.cs
+    │       IMoverController.cs
+    │       KinematicCharacterMotor.cs
+    │       KinematicCharacterMotorState.cs
+    │       KinematicCharacterSystem.cs
+    │       MovementSweepState.cs
+    │       OverlapResult.cs
+    │       PhysicsMover.cs
+    │       PhysicsMoverState.cs
+    │       ReadOnlyAttribute.cs
+    │       RigidbodyInteractionType.cs
+    │       RigidbodyProjectionHit.cs
+    │       StepHandlingMethod.cs
+    │
+    ├───MapRendering
+    │   │   Constants.cs
+    │   │   MapRenderBlockBuffer.cs
+    │   │   MapRenderer.cs
+    │   │   MapRendering.cs
+    │   │   MapTileCache.cs
+    │   │
+    │   ├───Api
+    │   │       Map.cs
+    │   │
+    │   └───Commands
+    │           EnableRendering.cs
+    │           RenderMap.cs
+    │
+    ├───Microsoft
+    │   └───CodeAnalysis
+    │           EmbeddedAttribute.cs
+    │
+    ├───ModInfo
+    │       ModInfo.cs
+    │       ModInfoLoader.cs
+    │
+    ├───mumblelib
+    │       ILinkFile.cs
+    │       LinkFileManager.cs
+    │       UnixLinkFile.cs
+    │       Util.cs
+    │       WindowsLinkFile.cs
+    │
+    ├───MusicUtils
+    │   │   ClipUtils.cs
+    │   │   Curve.cs
+    │   │   DMSConstants.cs
+    │   │   ExponentialCurve.cs
+    │   │   FileCleanupUtils.cs
+    │   │   LinearCurve.cs
+    │   │   LogarithmicCurve.cs
+    │   │   Pair.cs
+    │   │   SignalProcessing.cs
+    │   │   ThreatLevelConstants.cs
+    │   │
+    │   └───Enums
+    │           IntensityType.cs
+    │           LayerStateType.cs
+    │           LayerType.cs
+    │           MusicActionType.cs
+    │           PlacementType.cs
+    │           SectionType.cs
+    │           ThreatLevelLegacyType.cs
+    │           ThreatLevelType.cs
+    │
+    ├───PI
+    │   └───NGSS
+    │           NGSS_Directional.cs
+    │           NGSS_FrustumShadows.cs
+    │           NGSS_FrustumShadows_7DTD.cs
+    │           NGSS_Local.cs
+    │
+    ├───Platform
+    │   │   AbsPlatform.cs
+    │   │   AbsUserIdentifierFactory.cs
+    │   │   AchievementConstants.cs
+    │   │   AchievementData.cs
+    │   │   AchievementUtils.cs
+    │   │   ApplicationState.cs
+    │   │   AuthenticationSuccessfulCallbackDelegate.cs
+    │   │   BlockedPlayerList.cs
+    │   │   CensoredTextRequest.cs
+    │   │   CensoredTextResult.cs
+    │   │   ClientAuthenticateServerContext.cs
+    │   │   ClientAuthenticateServerDisconnectDelegate.cs
+    │   │   ClientAuthenticateServerSuccessDelegate.cs
+    │   │   ClientLobbyManager.cs
+    │   │   DeviceCapabilities.cs
+    │   │   DeviceFlag.cs
+    │   │   DeviceFlags.cs
+    │   │   DeviceGamePrefs.cs
+    │   │   DeviceName.cs
+    │   │   DLCEnvironmentFlags.cs
+    │   │   DLCTitleStorageManager.cs
+    │   │   EApiStatus.cs
+    │   │   EApiStatusReason.cs
+    │   │   EBeginUserAuthenticationResult.cs
+    │   │   EBlockType.cs
+    │   │   EDeviceType.cs
+    │   │   EMatchmakingGroup.cs
+    │   │   EnumAchievementDataStat.cs
+    │   │   EnumAchievementDataStatExtensions.cs
+    │   │   EnumAchievementManagerAchievement.cs
+    │   │   EnumAchievementManagerAchievementExtensions.cs
+    │   │   EnumStatEvent.cs
+    │   │   EnumStatType.cs
+    │   │   EPartyVoiceStatus.cs
+    │   │   EPlatformIdentifier.cs
+    │   │   EPlatformIdentifierExtensions.cs
+    │   │   EPlatformLoadSaveGameState.cs
+    │   │   EPlayGroup.cs
+    │   │   EPlayGroupExtensions.cs
+    │   │   ESaveGameProviderStatus.cs
+    │   │   ESaveGameProviderStatusExtensions.cs
+    │   │   EUserAccountState.cs
+    │   │   EUserAuthenticationResult.cs
+    │   │   EUserBlockState.cs
+    │   │   EUserBlockStateExtensions.cs
+    │   │   EUserPerms.cs
+    │   │   EUserPermsExtensions.cs
+    │   │   EUserStatus.cs
+    │   │   GameServerFoundCallback.cs
+    │   │   IAchievementManager.cs
+    │   │   IAntiCheatClient.cs
+    │   │   IAntiCheatEncryption.cs
+    │   │   IAntiCheatServer.cs
+    │   │   IApplicationStateController.cs
+    │   │   IAuthenticationClient.cs
+    │   │   IAuthenticationServer.cs
+    │   │   IEntitlementValidator.cs
+    │   │   IGameplayNotifier.cs
+    │   │   IJoinSessionGameInviteListener.cs
+    │   │   ILobbyHost.cs
+    │   │   IMasterServerAnnouncer.cs
+    │   │   IMultiplayerInvitationDialog.cs
+    │   │   IPartyVoice.cs
+    │   │   IPlatform.cs
+    │   │   IPlatformApi.cs
+    │   │   IPlatformApplication.cs
+    │   │   IPlatformMemory.cs
+    │   │   IPlatformMemorySampler.cs
+    │   │   IPlatformMemoryStat.2.cs
+    │   │   IPlatformMemoryStat.cs
+    │   │   IPlatformMemoryStatExtensions.cs
+    │   │   IPlatformNetworkClient.cs
+    │   │   IPlatformNetworkServer.cs
+    │   │   IPlatformSaveGameIOProvider.cs
+    │   │   IPlatformSaveGameProvider.cs
+    │   │   IPlatformUser.cs
+    │   │   IPlatformUserBlockedData.cs
+    │   │   IPlatformUserBlockedDataExtensions.cs
+    │   │   IPlatformUserBlockedResults.cs
+    │   │   IPlatformUserData.cs
+    │   │   IPlayerInteractionsRecorder.cs
+    │   │   IPlayerReporting.cs
+    │   │   IRemoteFileStorage.cs
+    │   │   IRemotePlayerFileStorage.cs
+    │   │   IRemotePlayerStorageObject.cs
+    │   │   IRichPresence.cs
+    │   │   IServerListInterface.cs
+    │   │   ITextCensor.cs
+    │   │   IUserClient.cs
+    │   │   IUserDataRoaming.cs
+    │   │   IUserDetailsService.cs
+    │   │   IUserIdentifierMappingService.cs
+    │   │   IUtils.cs
+    │   │   IVirtualKeyboard.cs
+    │   │   KickPlayerDelegate.cs
+    │   │   LobbyHostJoinResult.cs
+    │   │   LoginUserCallback.cs
+    │   │   MappedAccountQueryCallback.cs
+    │   │   MappedAccountQueryResult.cs
+    │   │   MappedAccountRequest.cs
+    │   │   MappedAccountReverseQueryCallback.cs
+    │   │   MappedAccountReverseRequest.cs
+    │   │   MappedAccountsQueryCallback.cs
+    │   │   MappedAccountsReverseQueryCallback.cs
+    │   │   MaxResultsReachedCallback.cs
+    │   │   MemoryStatColumn.cs
+    │   │   NetworkUtils.cs
+    │   │   PlatformApplicationManager.cs
+    │   │   PlatformConfiguration.cs
+    │   │   PlatformFactoryAttribute.cs
+    │   │   PlatformLobbyId.cs
+    │   │   PlatformManager.cs
+    │   │   PlatformMemoryColumnChangedHandler.cs
+    │   │   PlatformMemoryRenderDelta.cs
+    │   │   PlatformMemoryRenderValue.cs
+    │   │   PlatformMemoryStat.2.cs
+    │   │   PlatformMemoryStat.cs
+    │   │   PlatformMemoryStatHasChangedSignificantly.cs
+    │   │   PlatformUserBlockedStateChangedHandler.cs
+    │   │   PlatformUserDetails.cs
+    │   │   PlatformUserDetailsUpdatedHandler.cs
+    │   │   PlatformUserManager.cs
+    │   │   PlayerInputManager.cs
+    │   │   PlayerInteraction.cs
+    │   │   PlayerInteractionType.cs
+    │   │   SaveRoamingMode.cs
+    │   │   ServerSearchErrorCallback.cs
+    │   │   SteamGroupStatusResponse.cs
+    │   │   UserBlocksChangedCallback.cs
+    │   │   UserDataRoamingAbs.cs
+    │   │   UserDataRoamingMultiPlatform.cs
+    │   │   UserDataStorageType.cs
+    │   │   UserDataStorageTypeExtensions.cs
+    │   │   UserDetailsRequest.cs
+    │   │   UserDetailsRequestCompleteHandler.cs
+    │   │   UserDetailsUpdatedEvent.cs
+    │   │   UserIdentifierFactoryAttribute.cs
+    │   │
+    │   ├───EOS
+    │   │       AntiCheatClientCS.cs
+    │   │       AntiCheatClientManager.cs
+    │   │       AntiCheatClientP2P.cs
+    │   │       AntiCheatCommon.cs
+    │   │       AntiCheatServer.cs
+    │   │       AntiCheatServerP2P.cs
+    │   │       Api.cs
+    │   │       AuthClient.cs
+    │   │       AuthServer.cs
+    │   │       EosBindingsUnityEditor.cs
+    │   │       EosCreds.cs
+    │   │       EosHelpers.cs
+    │   │       EOSSanction.cs
+    │   │       EosUserIdMapper.cs
+    │   │       Factory.cs
+    │   │       NetworkClientEos.cs
+    │   │       NetworkCommonEos.cs
+    │   │       NetworkServerEos.cs
+    │   │       PlayerReporting.cs
+    │   │       RemoteFileStorage.cs
+    │   │       RemotePlayerFileStorage.cs
+    │   │       SanctionsCheck.cs
+    │   │       SanctionsCheckResult.cs
+    │   │       SessionsClient.cs
+    │   │       SessionsHost.cs
+    │   │       User.cs
+    │   │       UserBase.cs
+    │   │       UserDetailsServiceEos.cs
+    │   │       UserIdentifierEos.cs
+    │   │       UserIdentifierFactory.cs
+    │   │       UserServer.cs
+    │   │       Voice.cs
+    │   │
+    │   ├───GameCore
+    │   │       Api.cs
+    │   │       UserDataRoamingGameCore.cs
+    │   │
+    │   ├───LAN
+    │   │       Factory.cs
+    │   │       LANMasterServerAnnouncer.cs
+    │   │       LANServerCacheControl.cs
+    │   │       LANServerList.cs
+    │   │       LANServerSearchConfig.cs
+    │   │       UdpClientReceiveHandler.cs
+    │   │       UdpClientSendHandler.cs
+    │   │
+    │   ├───Local
+    │   │       Api.cs
+    │   │       DownloadableContentValidator.cs
+    │   │       Factory.cs
+    │   │       RemoteFileStorage.cs
+    │   │       User.cs
+    │   │       UserIdentifierFactory.cs
+    │   │       UserIdentifierLocal.cs
+    │   │
+    │   ├───MultiPlatform
+    │   │       Factory.cs
+    │   │       PlayerInteractionsRecorderMulti.cs
+    │   │       RichPresence.cs
+    │   │       ServerListAnnouncer.cs
+    │   │       User.cs
+    │   │
+    │   ├───PS5
+    │   │       UserDataRoamingPS5.cs
+    │   │
+    │   ├───PSN
+    │   │       UserIdentifierFactory.cs
+    │   │       UserIdentifierPSN.cs
+    │   │
+    │   ├───Shared
+    │   │       FavoriteServers.cs
+    │   │       LocalServerDetect.cs
+    │   │       PlatformApplicationStandalone.cs
+    │   │       PlatformIdCache.cs
+    │   │       SaveGameIOProvider.cs
+    │   │       SaveGameIOProviderFixedRoot.cs
+    │   │       SaveGameProvider.cs
+    │   │       SaveGameProviderHelper.cs
+    │   │       UserDataRoaming.cs
+    │   │       Utils.cs
+    │   │
+    │   ├───Steam
+    │   │       AchievementManager.cs
+    │   │       Api.cs
+    │   │       AuthenticationClient.cs
+    │   │       AuthenticationServer.cs
+    │   │       Constants.cs
+    │   │       DownloadableContentValidator.cs
+    │   │       Factory.cs
+    │   │       GameServerDetailsCallback.cs
+    │   │       JoinSessionGameInviteListener.cs
+    │   │       LobbyHost.cs
+    │   │       LobbyListAbs.cs
+    │   │       LobbyListFriends.cs
+    │   │       LobbyListInternet.cs
+    │   │       MasterServerAnnouncer.cs
+    │   │       MasterServerList.cs
+    │   │       MultiplayerInvitationDialogSteam.cs
+    │   │       NetworkClientSteam.cs
+    │   │       NetworkCommonSteam.cs
+    │   │       NetworkServerSteam.cs
+    │   │       RichPresence.cs
+    │   │       SteamGroupsAuthorizer.cs
+    │   │       SteamOwnerAuthorizer.cs
+    │   │       SteamQueryPortReader.cs
+    │   │       User.cs
+    │   │       UserIdentifierFactory.cs
+    │   │       UserIdentifierSteam.cs
+    │   │       Utils.cs
+    │   │       VirtualKeyboard.cs
+    │   │
+    │   ├───Stubs
+    │   │       FactoryStubPSN.cs
+    │   │
+    │   └───XBL
+    │       │   AchievementManager.cs
+    │       │   Api.cs
+    │       │   ApplicationStateController.cs
+    │       │   DownloadableContentValidator.cs
+    │       │   Factory.cs
+    │       │   FriendsListXbl.cs
+    │       │   HREx.cs
+    │       │   IdProviderGameCore.cs
+    │       │   JoinSessionGameInviteListener.cs
+    │       │   MultiplayerActivityQueryManager.cs
+    │       │   PrivilegeState.cs
+    │       │   PrivilegeStateArrayExtensions.cs
+    │       │   SaveGameProviderGameCore.cs
+    │       │   ServerListFriendsMultiplayerActivity.cs
+    │       │   SocialManagerXbl.cs
+    │       │   TextCensor.cs
+    │       │   User.cs
+    │       │   UserIdentifierFactory.cs
+    │       │   UserIdentifierXbl.cs
+    │       │   UserPrivilegeHelper.cs
+    │       │   Utils.cs
+    │       │   XblHelpers.cs
+    │       │   XblPlatformApi.cs
+    │       │   XblSandboxHelper.cs
+    │       │   XblXuidMapper.cs
+    │       │   XuidResolveRequest.cs
+    │       │
+    │       └───Save
+    │           │   BlobCache.cs
+    │           │   GameCoreSaveHelpers.cs
+    │           │   PathEnumerationInfo.cs
+    │           │   SaveContainer.cs
+    │           │   SizeTracker.cs
+    │           │   SizeTrackerGetRemainingQuotaAsync.cs
+    │           │   SizeTrackerGetRemainingQuotaCompleted.cs
+    │           │
+    │           ├───MasterFileTable
+    │           │   │   IMigratable.cs
+    │           │   │   Migrator.cs
+    │           │   │
+    │           │   ├───Latest
+    │           │   │       BlobRef.cs
+    │           │   │       ContainerData.cs
+    │           │   │       Node.cs
+    │           │   │       NodeAttributes.cs
+    │           │   │
+    │           │   ├───V01
+    │           │   │       ContainerData.cs
+    │           │   │       Node.cs
+    │           │   │
+    │           │   ├───V02
+    │           │   │       ContainerData.cs
+    │           │   │       Node.cs
+    │           │   │
+    │           │   ├───V03
+    │           │   │       ContainerData.cs
+    │           │   │       Node.cs
+    │           │   │       NodeAttributes.cs
+    │           │   │
+    │           │   ├───V04
+    │           │   │       BlobRef.cs
+    │           │   │       ContainerData.cs
+    │           │   │       Node.cs
+    │           │   │       NodeAttributes.cs
+    │           │   │
+    │           │   └───V05
+    │           │           BlobRef.cs
+    │           │           ContainerData.cs
+    │           │           Node.cs
+    │           │           NodeAttributes.cs
+    │           │
+    │           └───Storage
+    │               │   ISaveStorageContainer.cs
+    │               │   ISaveStorageProvider.cs
+    │               │   OnGameSaveProviderStatusChanged.cs
+    │               │   SaveStorageProvider.cs
+    │               │   SaveStorageProviderExtensions.cs
+    │               │
+    │               ├───Blobs
+    │               │       SaveStorageStorageContainerBlobs.cs
+    │               │       SaveStorageStorageProviderBlobs.cs
+    │               │
+    │               └───Files
+    │                       SaveStorageStorageContainerFiles.cs
+    │                       SaveStorageStorageProviderFiles.cs
+    │
+    ├───PostEffects
+    │       ContactShadows.cs
+    │       NoiseTextureSet.cs
+    │
+    ├───PrefabVolumes
+    │       Marker.cs
+    │       PrefabInfoVolume.cs
+    │       PrefabInfoVolumeList.cs
+    │       PrefabMarkerVolumeList.cs
+    │       PrefabSleeperVolume.cs
+    │       PrefabSleeperVolumeList.cs
+    │       PrefabTeleportVolume.cs
+    │       PrefabTeleportVolumeList.cs
+    │       PrefabTriggerVolume.cs
+    │       PrefabTriggerVolumeList.cs
+    │       PrefabVolumeAbs.2.cs
+    │       PrefabVolumeAbs.cs
+    │       PrefabVolumeListAbs.2.cs
+    │       PrefabVolumeListAbs.cs
+    │       PrefabWallVolume.cs
+    │       PrefabWallVolumeList.cs
+    │
+    ├───Properties
+    │       AssemblyInfo.cs
+    │
+    ├───Quests
+    │   │   TrackingHandler.cs
+    │   │
+    │   └───Requirements
+    │           BaseRequirement.cs
+    │           RequirementBuff.cs
+    │           RequirementGroup.cs
+    │           RequirementHolding.cs
+    │           RequirementLevel.cs
+    │           RequirementWearing.cs
+    │
+    ├───RaycastPathing
+    │       cPathNodeType.cs
+    │       dColor.cs
+    │       FloodFillNode.cs
+    │       FloodFillNodeScore.cs
+    │       FloodFillPath.cs
+    │       RaycastNode.cs
+    │       RaycastNodeHierarcy.cs
+    │       RaycastNodeInfo.cs
+    │       RaycastPath.cs
+    │       RaycastPathInfo.cs
+    │       RaycastPathUtils.cs
+    │       RaycastPathWorldUtils.cs
+    │
+    ├───SandboxOptions
+    │       BaseSandboxOption.cs
+    │       SandboxOptionBoolean.cs
+    │       SandboxOptionCategory.cs
+    │       SandboxOptionFloat.cs
+    │       SandboxOptionInt.cs
+    │       SandboxOptionManager.cs
+    │       SandboxOptionPreset.cs
+    │       SandboxOptions.cs
+    │       SandboxOptionValueSet.cs
+    │       SandboxOptionValueSetBool.cs
+    │       SandboxOptionValueSetFloat.cs
+    │       SandboxOptionValueSetInt.cs
+    │
+    ├───SDF
+    │       SdfBinary.cs
+    │       SdfBool.cs
+    │       SdfByteArray.cs
+    │       SdfData.cs
+    │       SdfFile.cs
+    │       SdfFloat.cs
+    │       SdfInt.cs
+    │       SdfReader.cs
+    │       SdfString.cs
+    │       SdfTag.cs
+    │       SdfTagType.cs
+    │       SdfWriter.cs
+    │
+    ├───Services
+    │   │   ServiceProvider.cs
+    │   │
+    │   └───Analytics
+    │       │   EventTypes.cs
+    │       │   Helper.cs
+    │       │   TruncateStringSerializerConverter.cs
+    │       │
+    │       └───Events
+    │               BaseEventData.cs
+    │               ChallengeClaimedEventData.cs
+    │               ChallengeCompletedEventData.cs
+    │               CosmeticUsageEventData.cs
+    │               DlcOwnershipEventData.cs
+    │               HardwareInfoEventData.cs
+    │               HeartbeatEventData.cs
+    │               LoginEventData.cs
+    │               PlayerJoinServerEventData.cs
+    │               ServerStartEventData.cs
+    │
+    ├───SharpEXR
+    │   │   Channel.cs
+    │   │   ChannelConfiguration.cs
+    │   │   ChannelList.cs
+    │   │   EXRAttribute.cs
+    │   │   EXRCompression.cs
+    │   │   EXRFile.cs
+    │   │   EXRFormatException.cs
+    │   │   EXRHeader.cs
+    │   │   EXRPart.cs
+    │   │   EXRReader.cs
+    │   │   EXRVersion.cs
+    │   │   EXRVersionFlags.cs
+    │   │   GammaEncoding.cs
+    │   │   Half.cs
+    │   │   HalfHelper.cs
+    │   │   IEXRReader.cs
+    │   │   ImageDestFormat.cs
+    │   │   ImageSourceFormat.cs
+    │   │   LevelMode.cs
+    │   │   LineOrder.cs
+    │   │   OffsetTable.cs
+    │   │   ParallelReaderCreationDelegate.cs
+    │   │   PartType.cs
+    │   │   PixelType.cs
+    │   │   RoundingMode.cs
+    │   │
+    │   ├───AttributeTypes
+    │   │       Box2F.cs
+    │   │       Box2I.cs
+    │   │       Chromaticities.cs
+    │   │       EnvMap.cs
+    │   │       KeyCode.cs
+    │   │       M33F.cs
+    │   │       M44F.cs
+    │   │       Rational.cs
+    │   │       TileDesc.cs
+    │   │       TimeCode.cs
+    │   │       V2F.cs
+    │   │       V2I.cs
+    │   │       V3F.cs
+    │   │       V3I.cs
+    │   │
+    │   ├───ColorSpace
+    │   │       Gamma.cs
+    │   │       tMat3x3.cs
+    │   │       tVec2.cs
+    │   │       tVec3.cs
+    │   │       XYZ.cs
+    │   │
+    │   └───Compression
+    │           RLE.cs
+    │
+    ├───ShinyScreenSpaceRaytracedReflections
+    │       Rotate.cs
+    │
+    ├───System
+    │   ├───Collections
+    │   │   └───Generic
+    │   │           HashSetLong.cs
+    │   │
+    │   └───Runtime
+    │       └───CompilerServices
+    │               IsUnmanagedAttribute.cs
+    │               NullableAttribute.cs
+    │               NullableContextAttribute.cs
+    │
+    ├───TriggerEffects
+    │       TriggerEffectDualsense.cs
+    │       TriggerEffectDualsensePC.cs
+    │
+    ├───Twitch
+    │   │   BaseTwitchCommand.cs
+    │   │   BaseTwitchEventEntry.cs
+    │   │   BaseTwitchOperationRequirement.cs
+    │   │   BaseTwitchRequirement.cs
+    │   │   BaseTwitchVoteOperationRequirement.cs
+    │   │   BaseTwitchVoteRequirement.cs
+    │   │   ConfigContent.cs
+    │   │   CooldownPreset.cs
+    │   │   Entitlement.cs
+    │   │   EntitlementListWrapper.cs
+    │   │   ExtensionAction.cs
+    │   │   ExtensionActionResponse.cs
+    │   │   ExtensionBitAction.cs
+    │   │   ExtensionCommandPoller.cs
+    │   │   ExtensionConfigManager.cs
+    │   │   ExtensionDeleteBitActionsRequestData.cs
+    │   │   ExtensionListener.cs
+    │   │   ExtensionManager.cs
+    │   │   ExtensionPubSubManager.cs
+    │   │   ExtensionStateManager.cs
+    │   │   FulfillmentPayload.cs
+    │   │   GiftSubEntry.cs
+    │   │   OnCommandsChanged.cs
+    │   │   OnGameEventVoteAction.cs
+    │   │   OnHistoryAdded.cs
+    │   │   OnLeaderboardStatsChanged.cs
+    │   │   OnTwitchConnectionStateChange.cs
+    │   │   PubSubStatusMessage.cs
+    │   │   PubSubStatusRequestData.cs
+    │   │   SetConfigRequestData.cs
+    │   │   SetDevConfigRequestData.cs
+    │   │   TwitchAction.cs
+    │   │   TwitchActionCooldownAddition.cs
+    │   │   TwitchActionCooldownModifier.cs
+    │   │   TwitchActionEntry.cs
+    │   │   TwitchActionHistoryEntry.cs
+    │   │   TwitchActionManager.cs
+    │   │   TwitchActionPreset.cs
+    │   │   TwitchAuthentication.cs
+    │   │   TwitchAuth_QRCodeGenerated.cs
+    │   │   TwitchChannelPointEventEntry.cs
+    │   │   TwitchCommandAddBitCredit.cs
+    │   │   TwitchCommandAddPoints.cs
+    │   │   TwitchCommandAddSpecialPoints.cs
+    │   │   TwitchCommandCheckCredit.cs
+    │   │   TwitchCommandCheckPoints.cs
+    │   │   TwitchCommandCommands.cs
+    │   │   TwitchCommandDebug.cs
+    │   │   TwitchCommandDisableCommand.cs
+    │   │   TwitchCommandEnableCommand.cs
+    │   │   TwitchCommandGamestage.cs
+    │   │   TwitchCommandPauseCommand.cs
+    │   │   TwitchCommandRedeemBits.cs
+    │   │   TwitchCommandRedeemCharity.cs
+    │   │   TwitchCommandRedeemCreatorGoal.cs
+    │   │   TwitchCommandRedeemGiftSub.cs
+    │   │   TwitchCommandRedeemHypeTrain.cs
+    │   │   TwitchCommandRedeemRaid.cs
+    │   │   TwitchCommandRedeemSub.cs
+    │   │   TwitchCommandRemoveViewer.cs
+    │   │   TwitchCommandResetCooldowns.cs
+    │   │   TwitchCommandSetBitPot.cs
+    │   │   TwitchCommandSetCooldown.cs
+    │   │   TwitchCommandSetPot.cs
+    │   │   TwitchCommandTeleportBackpack.cs
+    │   │   TwitchCommandUnpauseCommand.cs
+    │   │   TwitchCommandUseProgression.cs
+    │   │   TwitchCooldownEntry.cs
+    │   │   TwitchCreatorGoalEventEntry.cs
+    │   │   TwitchEntitlementManager.cs
+    │   │   TwitchEventActionEntry.cs
+    │   │   TwitchEventEntry.cs
+    │   │   TwitchEventPreset.cs
+    │   │   TwitchExtensionCommand.cs
+    │   │   TwitchHypeTrainEventEntry.cs
+    │   │   TwitchIRCClient.cs
+    │   │   TwitchLeaderboardEntry.cs
+    │   │   TwitchLeaderboardStats.cs
+    │   │   TwitchManager.cs
+    │   │   TwitchMessageEntry.cs
+    │   │   TwitchRandomActionGroup.cs
+    │   │   TwitchRecentlyRemovedEntityEntry.cs
+    │   │   TwitchRequirementHasBuff.cs
+    │   │   TwitchRequirementHasProgression.cs
+    │   │   TwitchRequirementIsNight.cs
+    │   │   TwitchRequirementSandboxBool.cs
+    │   │   TwitchRequirementSandboxFloat.cs
+    │   │   TwitchRequirementSandboxInt.cs
+    │   │   TwitchRespawnEntry.cs
+    │   │   TwitchSpawnedBlocksEntry.cs
+    │   │   TwitchSpawnedEntityEntry.cs
+    │   │   TwitchSubEventEntry.cs
+    │   │   TwitchUserData.cs
+    │   │   TwitchUserDataContainer.cs
+    │   │   TwitchViewerData.cs
+    │   │   TwitchVote.cs
+    │   │   TwitchVoteEntry.cs
+    │   │   TwitchVoteGroup.cs
+    │   │   TwitchVoteLockTypes.cs
+    │   │   TwitchVotePreset.cs
+    │   │   TwitchVoteRequirementHasBuff.cs
+    │   │   TwitchVoteRequirementHasProgression.cs
+    │   │   TwitchVoteRequirementIsNight.cs
+    │   │   TwitchVoteScheduler.cs
+    │   │   TwitchVoteType.cs
+    │   │   TwitchVotingManager.cs
+    │   │   UpdateMessage.cs
+    │   │   ViewerEntry.cs
+    │   │
+    │   └───PubSub
+    │           BasePubSubMessage.cs
+    │           PubSubBitRedemptionMessage.cs
+    │           PubSubChannelPointMessage.cs
+    │           PubSubGoalMessage.cs
+    │           PubSubHypeTrainMessage.cs
+    │           PubSubListenMessage.cs
+    │           PubSubSubscriptionRedemptionMessage.cs
+    │           TwitchPubSub.cs
+    │           TwitchTopic.cs
+    │
+    ├───UAI
+    │       ActionData.cs
+    │       ConsiderationData.cs
+    │       Context.cs
+    │       CurveType.cs
+    │       UAIAction.cs
+    │       UAIBase.cs
+    │       UAIConsiderationBase.cs
+    │       UAIConsiderationPathBlocked.cs
+    │       UAIConsiderationSelfHealth.cs
+    │       UAIConsiderationSelfVisible.cs
+    │       UAIConsiderationTargetDistance.cs
+    │       UAIConsiderationTargetFactionStanding.cs
+    │       UAIConsiderationTargetHealth.cs
+    │       UAIConsiderationTargetType.cs
+    │       UAIConsiderationTargetVisible.cs
+    │       UAIPackage.cs
+    │       UAITaskAttackTargetBlock.cs
+    │       UAITaskAttackTargetEntity.cs
+    │       UAITaskBase.cs
+    │       UAITaskFleeFromTarget.cs
+    │       UAITaskMoveToTarget.cs
+    │       UAITaskWander.cs
+    │       UAIUtils.cs
+    │
+    ├───UniLinq
+    │       Check.cs
+    │       Enumerable.cs
+    │       Grouping.cs
+    │       IGrouping.cs
+    │       ILookup.cs
+    │       IOrderedEnumerable.cs
+    │       Lookup.cs
+    │       OrderedEnumerable.cs
+    │       OrderedSequence.cs
+    │       QuickSort.cs
+    │       SortContext.cs
+    │       SortDirection.cs
+    │       SortSequenceContext.cs
+    │
+    ├───UnityEngine
+    │   └───Networking
+    │           NetworkError.cs
+    │
+    ├───WaterClippingTool
+    │       ShapeSettings.cs
+    │       WaterClippingPlanePlacer.cs
+    │
+    ├───Webserver
+    │   │   ConnectionHandler.cs
+    │   │   ERequestMethod.cs
+    │   │   LogBuffer.cs
+    │   │   MimeType.cs
+    │   │   OpenID.cs
+    │   │   RequestContext.cs
+    │   │   ResourceHelpers.cs
+    │   │   UserRegistrationTokens.cs
+    │   │   Web.cs
+    │   │   WebCommandResult.cs
+    │   │   WebConnection.cs
+    │   │   WebMod.cs
+    │   │   WebServer.cs
+    │   │   WebUtils.cs
+    │   │
+    │   ├───Commands
+    │   │       EnableOpenIDDebug.cs
+    │   │       WebPermissionsCmd.cs
+    │   │       WebTokens.cs
+    │   │
+    │   ├───FileCache
+    │   │       AbstractCache.cs
+    │   │       DirectAccess.cs
+    │   │       InvalidateCachesCmd.cs
+    │   │       SimpleCache.cs
+    │   │
+    │   ├───LiveData
+    │   │       Animals.cs
+    │   │       EntityFilterList.cs
+    │   │       Hostiles.cs
+    │   │
+    │   ├───Permissions
+    │   │       AdminApiTokens.cs
+    │   │       AdminWebModules.cs
+    │   │       AdminWebUsers.cs
+    │   │       PermissionUtils.cs
+    │   │
+    │   ├───SSE
+    │   │       AbsEvent.cs
+    │   │       ESseClientWriteResult.cs
+    │   │       EventLog.cs
+    │   │       SseClient.cs
+    │   │
+    │   ├───UrlHandlers
+    │   │       AbsHandler.cs
+    │   │       ApiHandler.cs
+    │   │       ItemIconHandler.cs
+    │   │       RewriteHandler.cs
+    │   │       SessionHandler.cs
+    │   │       SimpleRedirectHandler.cs
+    │   │       SseHandler.cs
+    │   │       StaticHandler.cs
+    │   │       UserStatusHandler.cs
+    │   │
+    │   └───WebAPI
+    │       │   AbsRestApi.cs
+    │       │   AbsWebAPI.cs
+    │       │   EApiErrorCode.cs
+    │       │   JsonCommons.cs
+    │       │   Null.cs
+    │       │   OpenApiHelpers.cs
+    │       │
+    │       └───APIs
+    │           │   Command.cs
+    │           │   LogApi.cs
+    │           │   OpenAPI.cs
+    │           │
+    │           ├───GameData
+    │           │       EntityClass.cs
+    │           │       Item.cs
+    │           │       Mods.cs
+    │           │
+    │           ├───Permissions
+    │           │       Blacklist.cs
+    │           │       CommandPermissions.cs
+    │           │       PermissionsApiHelpers.cs
+    │           │       RegisterUser.cs
+    │           │       UserPermissions.cs
+    │           │       WebApiTokens.cs
+    │           │       WebModules.cs
+    │           │       WebUsers.cs
+    │           │       Whitelist.cs
+    │           │
+    │           ├───ServerState
+    │           │       GamePrefs.cs
+    │           │       GameStats.cs
+    │           │       KeyValueListAbs.cs
+    │           │       SandboxSettings.cs
+    │           │       ServerInfo.cs
+    │           │       ServerStats.cs
+    │           │
+    │           └───WorldState
+    │                   Animal.cs
+    │                   Bloodmoon.cs
+    │                   Hostile.cs
+    │                   Player.cs
+    │
+    ├───WorldGenerationEngineFinal
+    │       BiomeType.cs
+    │       DataMap.cs
+    │       District.cs
+    │       DistrictPlanner.cs
+    │       DistrictPlannerStatic.cs
+    │       HighwayPlanner.cs
+    │       Path.cs
+    │       PathingUtils.cs
+    │       PathNode.cs
+    │       PathNodePool.cs
+    │       PathShared.cs
+    │       PathTile.cs
+    │       POISmoother.cs
+    │       PrefabManager.cs
+    │       PrefabManagerData.cs
+    │       PrefabManagerStatic.cs
+    │       Rand.cs
+    │       RandomCountyNameGenerator.cs
+    │       RawStamp.cs
+    │       Stamp.cs
+    │       StampGroup.cs
+    │       StampManager.cs
+    │       StreetTile.cs
+    │       StreetTileData.cs
+    │       StreetTileShared.cs
+    │       TerrainType.cs
+    │       TileGroup.cs
+    │       TownPlanner.cs
+    │       Township.cs
+    │       TownshipData.cs
+    │       TownshipShared.cs
+    │       TranslationData.cs
+    │       WildernessPathPlanner.cs
+    │       WildernessPlanner.cs
+    │       WorldBuilder.cs
+    │       WorldBuilderConstants.cs
+    │       WorldBuilderStatic.cs
+    │       WorldGenerationFromXml.cs
+    │
+    ├───XMLData
+    │   │   ColorMappingData.cs
+    │   │   IXMLData.cs
+    │   │   IXMLParserBase.cs
+    │   │   ParserUtils.cs
+    │   │   Range.cs
+    │   │   XmlParserAttribute.cs
+    │   │
+    │   ├───Exceptions
+    │   │       IncorrectAttributeOccurrenceException.cs
+    │   │       InvalidValueException.cs
+    │   │       MissingAttributeException.cs
+    │   │       RedefinedElementException.cs
+    │   │       UnexpectedElementException.cs
+    │   │       XmlParserException.cs
+    │   │
+    │   ├───Formatters
+    │   │       MassFormatter.cs
+    │   │       ValueFormatter.cs
+    │   │
+    │   ├───Item
+    │   │       ArmorData.cs
+    │   │       AttributesData.cs
+    │   │       DamageBonusData.cs
+    │   │       EItemGroup.cs
+    │   │       EPartType.cs
+    │   │       ExplosionData.cs
+    │   │       ItemActionData.cs
+    │   │       ItemData.cs
+    │   │       PartsData.cs
+    │   │       PreviewData.cs
+    │   │       UMAData.cs
+    │   │
+    │   └───Parsers
+    │           boolParser.cs
+    │           ColorParser.cs
+    │           doubleParser.cs
+    │           EnumParser.cs
+    │           floatParser.cs
+    │           intParser.cs
+    │           MaterialBlockParser.cs
+    │           stringParser.cs
+    │           Vector2Parser.cs
+    │           Vector3Parser.cs
+    │
+    └───XMLEditing
+            BlockNode.cs
+            BlockNodeMap.cs
+            OversizedConversionUtils.cs
+            PropNameConsts.cs
+            XMLUtils.cs
+
+
+C:\Users\Geist\Downloads\export>
